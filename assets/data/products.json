@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Red Seat",
       "category": "House",
-      "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+      "pic": "../img/products/Dress_1.png",
       "discounted": false,
       "price": 45.00,
       "oldPrice": 45.00,
@@ -13,7 +13,7 @@
       "images": [
          {
             "id": 0,
-            "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            "url": "../img/products/Dress_1.png"
          }
       ],
       "vendor": "Brook's",

@@ -184,19 +184,19 @@ border-top-color: #ccc;
 }
 
 .datepicker-panel > ul > li.highlighted {
-    color: #0023ff !important;
+    color: #3080ff !important;
     border-radius: 50px;
 }
 
 .datepicker-panel > ul > li.highlighted:hover {
     opacity: 0.8;
-    color: #0023ff !important;
+    color: #3080ff !important;
 }
 
 .datepicker-panel > ul > li.picked,
 .datepicker-panel > ul > li.picked:hover {
     color: #fff !important;
-    background-color: #0023ff;
+    background-color: #3080ff;
     border-radius: 50px;
 }
 

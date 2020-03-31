@@ -1,0 +1,309 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24995,
+      "max": [
+        30.59480094909668,
+        23.975700378417969,
+        114.91329956054688
+      ],
+      "min": [
+        -29.061000823974609,
+        -21.886499404907227,
+        15.087300300598145
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 299940,
+      "componentType": 5126,
+      "count": 24995,
+      "max": [
+        0.99999594688415527,
+        0.99999761581420898,
+        0.99427640438079834
+      ],
+      "min": [
+        -0.9999929666519165,
+        -0.99997198581695557,
+        -0.94583958387374878
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 24995,
+      "max": [
+        0.99972414970397949,
+        0.99982649087905884,
+        0.99997574090957642,
+        1
+      ],
+      "min": [
+        -0.99793785810470581,
+        -0.9999011754989624,
+        -0.9999958872795105,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24995,
+      "max": [
+        0.60460001230239868,
+        0.85210001468658447
+      ],
+      "min": [
+        0.21619999408721924,
+        0.46360000967979431
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 148146,
+      "max": [
+        24994
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 599880,
+      "componentType": 5126,
+      "count": 8900,
+      "max": [
+        48.466800689697266,
+        20.794900894165039,
+        160.53359985351562
+      ],
+      "min": [
+        -48.839801788330078,
+        -18.873199462890625,
+        62.660598754882812
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 706680,
+      "componentType": 5126,
+      "count": 8900,
+      "max": [
+        0.99940502643585205,
+        0.99997854232788086,
+        0.97486096620559692
+      ],
+      "min": [
+        -0.99978464841842651,
+        -0.99999392032623291,
+        -0.96197181940078735
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 399920,
+      "componentType": 5126,
+      "count": 8900,
+      "max": [
+        0.99999558925628662,
+        0.99961304664611816,
+        0.99988639354705811,
+        1
+      ],
+      "min": [
+        -0.99999934434890747,
+        -0.99993616342544556,
+        -0.99912327527999878,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 199960,
+      "componentType": 5126,
+      "count": 8900,
+      "max": [
+        1,
+        0.94440001249313354
+      ],
+      "min": [
+        0.002099999925121665,
+        0.002099999925121665
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 592584,
+      "componentType": 5125,
+      "count": 49428,
+      "max": [
+        8899
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "SmartPlan (https://sketchfab.com/SmartPlan)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/models/0478a5ae37d045ba8263f6c727401e5a",
+      "title": "Kimono"
+    },
+    "generator": "Sketchfab-3.54.8-rc1",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 790296,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 271160,
+      "byteOffset": 790296,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 813480,
+      "byteOffset": 1061456,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 542320,
+      "byteOffset": 1874936,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2417256,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "wire_134006006",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.52549999999999997,
+          0.0235,
+          0.0235,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.91675550189999999
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "simple kimono.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
