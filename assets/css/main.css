@@ -1148,8 +1148,8 @@ body {
     width: fit-content;
     border-radius: 5px;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: inline-block;
     font-weight: 400 !important;
     font-family: 'Alegreya Sans SC', sans-serif
@@ -1169,7 +1169,7 @@ body {
 /* line 198, src/assets/scss/layout/_layout.scss */
 
 .shop-wrapper .hero-caption .button {
-    width: 15%;
+    width: 180px;
     margin: auto;
     display: flex;
     margin-top: 20px;
