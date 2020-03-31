@@ -1,0 +1,457 @@
+[
+    {
+        "id": 1,
+        "name": "Red Seat",
+        "category": "House",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 45.00,
+        "oldPrice": 45.00,
+        "tagline": "An elegant chair",
+        "shortDesc": "This seat is nicely and will fit perfectly in your living room. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "4x4x8",
+        "weight": "24.23 Lbs",
+        "sku": "SKU-877",
+        "related": [
+            {
+                "id": "4"
+            },
+            {
+                "id": "5"
+            },
+            {
+                "id": "3"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Blue Seat",
+        "category": "House",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 35.00,
+        "oldPrice": 35.00,
+        "tagline": "An gorgeous seat",
+        "shortDesc": "This seat is nicely and will fit perfectly in your living room. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "1 week",
+        "dimensions": "4x4x8",
+        "weight": "10.23 Lbs",
+        "sku": "SKU-423",
+        "related": [
+            {
+                "id": "6"
+            },
+            {
+                "id": "3"
+            },
+            {
+                "id": "5"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Modern Bed",
+        "category": "House",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": true,
+        "price": 120.99,
+        "oldPrice": 299.99,
+        "tagline": "Sleep good & well",
+        "shortDesc": "An amazing bed that will make you very happy. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Globe Furniture",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "12x12x59",
+        "weight": "126.59 Lbs",
+        "sku": "SKU-05595",
+        "related": [
+            {
+                "id": "7"
+            },
+            {
+                "id": "2"
+            },
+            {
+                "id": "3"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Dark Seat",
+        "category": "House",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": true,
+        "price": 50.25,
+        "oldPrice": 79.25,
+        "tagline": "The elegance of Dark",
+        "shortDesc": "This seat is nicely and will fit perfectly in your living room. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "1 week",
+        "dimensions": "4x4x8",
+        "weight": "10.23 Lbs",
+        "sku": "SKU-112",
+        "related": [
+            {
+                "id": "4"
+            },
+            {
+                "id": "1"
+            },
+            {
+                "id": "5"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "TV Furniture",
+        "category": "House",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 430.00,
+        "oldPrice": 430.00,
+        "tagline": "Watch TV like a king",
+        "shortDesc": "An awesome TV furniture for your living. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Bobby Living",
+        "inventoryQty": 250,
+        "shippingTime": "3 weeks",
+        "dimensions": "4x4x8",
+        "weight": "95.23 Lbs",
+        "sku": "SKU-4564",
+        "related": [
+            {
+                "id": "7"
+            },
+            {
+                "id": "2"
+            },
+            {
+                "id": "3"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Imperator",
+        "category": "Office",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": true,
+        "price": 490.00,
+        "oldPrice": 699.99,
+        "tagline": "An imperial couch",
+        "shortDesc": "This couch fits for classy and cosy livings. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "4x4x8",
+        "weight": "24.23 Lbs",
+        "sku": "SKU-49488",
+        "related": [
+            {
+                "id": "10"
+            },
+            {
+                "id": "12"
+            },
+            {
+                "id": "11"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Ambassador",
+        "category": "Office",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 480.00,
+        "oldPrice": 480.00,
+        "tagline": "A VIP couch",
+        "shortDesc": "This couch fits for classy and cosy livings. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "4x4x8",
+        "weight": "150.49 Lbs",
+        "sku": "SKU-08974",
+        "related": [
+            {
+                "id": "9"
+            },
+            {
+                "id": "15"
+            },
+            {
+                "id": "14"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Conqueror",
+        "category": "Office",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 590.00,
+        "oldPrice": 590.00,
+        "tagline": "A premium couch",
+        "shortDesc": "This couch fits for classy and cosy livings. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "50x95x65",
+        "weight": "150.49 Lbs",
+        "sku": "SKU-08974",
+        "related": [
+            {
+                "id": "9"
+            },
+            {
+                "id": "15"
+            },
+            {
+                "id": "13"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Gentleman",
+        "category": "Office",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 375.00,
+        "oldPrice": 375.00,
+        "tagline": "A middle sized couch",
+        "shortDesc": "An accessible couch that fits for classy and cosy livings. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "50x95x65",
+        "weight": "150.49 Lbs",
+        "sku": "SKU-05568",
+        "related": [
+            {
+                "id": "9"
+            },
+            {
+                "id": "15"
+            },
+            {
+                "id": "13"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Coffee Maker",
+        "category": "Kitchen",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 178.00,
+        "oldPrice": 178.00,
+        "tagline": "Delicious coffee",
+        "shortDesc": "A premium coffee maker for you and your family. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Govo",
+        "inventoryQty": 250,
+        "shippingTime": "3 weeks",
+        "dimensions": "16x16x16",
+        "weight": "20.84 Lbs",
+        "sku": "SKU-3985",
+        "related": [
+            {
+                "id": "25"
+            },
+            {
+                "id": "26"
+            },
+            {
+                "id": "27"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Ground Speakers",
+        "category": "Accessories",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 99.00,
+        "oldPrice": 99.00,
+        "tagline": "Minimal design",
+        "shortDesc": "Outstanding speakers that will fit nicely in your living. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Govo",
+        "inventoryQty": 250,
+        "shippingTime": "1 week",
+        "dimensions": "30x30x30",
+        "weight": "16.50 Lbs",
+        "sku": "SKU-24588",
+        "related": [
+            {
+                "id": "30"
+            },
+            {
+                "id": "31"
+            },
+            {
+                "id": "6"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Modern Speakers",
+        "category": "Accessories",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 175.00,
+        "oldPrice": 175.00,
+        "tagline": "Minimal design",
+        "shortDesc": "Outstanding speakers that will fit nicely in your living. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Govo",
+        "inventoryQty": 250,
+        "shippingTime": "1 week",
+        "dimensions": "90x120x60",
+        "weight": "45.50 Lbs",
+        "sku": "SKU-45645",
+        "related": [
+            {
+                "id": "30"
+            },
+            {
+                "id": "31"
+            },
+            {
+                "id": "6"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Red Alcove",
+        "category": "Office",
+        "pic": "http://via.placeholder.com/500x500/ffffff/999999",
+        "discounted": false,
+        "price": 45.00,
+        "oldPrice": 45.00,
+        "tagline": "An elegant chair",
+        "shortDesc": "This seat is nicely and will fit perfectly in your living room. Lorem ipsum sit dolor amet. Consecteture adipscing elit. Ut fermentum interdum malesuada. Sed ornare posuere lobortis. Lasis Ut fermentum interdum malesuada sed ornare.",
+        "longDesc": "<p>Lorem ipsum dolor sit amet, tale solet volutpat an his, mutat aliquando sed te. Dico affert sensibus sed eu, quo nibh minimum voluptua ut. Te cibo vituperata usu, diam timeam sensibus qui ut. Quo mazim scripta labores cu, sit no quaeque electram. Per at volumus eleifend suscipiantur. Ad mea viderer suscipiantur.</p><p>Solum movet salutatus ne has, nec probo suavitate urbanitas in. Volumus vulputate eos an, vix iusto ornatus mediocritatem ex. Ad pri mutat paulo inermis, at usu persius copiosae. Timeam democritum eloquentiam vim an.</p>",
+        "images": [
+            {
+                "id": 0,
+                "url": "http://via.placeholder.com/500x500/ffffff/999999"
+            }
+        ],
+        "vendor": "Brook's",
+        "inventoryQty": 250,
+        "shippingTime": "2 weeks",
+        "dimensions": "4x4x8",
+        "weight": "24.23 Lbs",
+        "sku": "SKU-219",
+        "related": [
+            {
+                "id": "30"
+            },
+            {
+                "id": "31"
+            },
+            {
+                "id": "6"
+            }
+        ]
+    }
+]

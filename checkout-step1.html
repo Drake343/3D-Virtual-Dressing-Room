@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> Nephos :: Modern Bulma Ecommerce App and Dashboard</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Fonts -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Pageloader -->
+    <div class="pageloader"></div>
+    <div class="infraloader is-active"></div>
+    <!-- Main Sidebar-->
+    <div class="main-sidebar">
+        <div class="sidebar-brand">
+            <a href="home.html"><img src="assets/img/logo/nephos.svg" alt=""></a>
+        </div>
+        <div class="sidebar-inner">
+            <ul class="icon-menu">
+                <!-- Shop sidebar trigger -->
+                <li>
+                    <a href="javascript:void(0);" id="open-shop"><i data-feather="home"></i></a>
+                </li> <!-- Cart sidebar trigger -->
+                <li>
+                    <a href="javascript:void(0);" id="open-cart"><i data-feather="shopping-cart"></i><span id="cart-dot" class="cart-items gelatine is-hidden"></span></a>
+                </li> <!-- Search trigger -->
+                <li>
+                    <a href="javascript:void(0);" id="open-search"><i data-feather="search"></i></a>
+                    <a href="javascript:void(0);" id="close-search" class="is-hidden is-inactive"><i data-feather="x"></i></a>
+                </li> <!-- Shop Filters -->
+                <li class="is-hidden">
+                    <a id="open-filters"><i data-feather="filter"></i></a>
+                </li> <!-- Shop Wishlist -->
+                <li id="sidebar-wishlist-button" class="is-hidden">
+                    <a class="sidebar-whishlist modal-trigger" data-modal="add-to-wishlist-modal"><i data-feather="heart"></i></a>
+                </li>
+            </ul>
+
+            <!-- User account -->
+            <ul class="bottom-menu">
+                <li class="is-hidden-mobile">
+                    <div class="small-auth-loader">
+                        <div class="loader is-loading"></div>
+                    </div>
+                    <a id="login-link" href="authentication.html"><i data-feather="user"></i></a>
+                    <a id="logout-link" class="is-hidden"><i data-feather="log-out"></i></a>
+                </li>
+                <li id="fold-link" class="fold-link">
+                    <a><i data-feather="arrow-left"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Shop quickview -->
+    <div class="shop-quickview has-background-image" data-background="http://via.placeholder.com/1280x853" data-demo-background="assets/img/bg/sidebar.jpeg">
+        <div class="inner">
+            <!-- Header -->
+            <div class="quickview-header">
+                <h2>Nephos</h2>
+                <span id="close-shop-sidebar"><i data-feather="x"></i></span>
+            </div>
+            <!-- Shop menu -->
+            <ul class="shop-menu">
+                <li>
+                    <a href="shop.html">
+                        <span>Shop</span>
+                        <i data-feather="grid"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="products.html">
+                        <span>All Products</span>
+                        <i data-feather="box"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="account.html">
+                        <span>My Account</span>
+                        <i data-feather="user"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="orders.html">
+                        <span>My Orders</span>
+                        <i data-feather="credit-card"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="wishlist.html">
+                        <span>My Wishlists</span>
+                        <i data-feather="heart"></i>
+                    </a>
+                </li>
+            </ul>
+            <!-- Profile image -->
+            <ul class="user-profile">
+                <li>
+                    <a href="javascript:void(0);">
+                        <img id="quickview-avatar" src="http://via.placeholder.com/250x250" data-demo-src="assets/img/avatars/altvatar.png" alt="">
+                        <span class="user">
+                                <span id="quickview-username">Guest</span>
+                        <span id="quickview-cart-count"><var>0</var> <small>Items in Cart</small></span>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Cart quickview -->
+    <div class="cart-quickview">
+        <div class="inner">
+            <!-- Header -->
+            <div class="quickview-header">
+                <h2>Quick Cart</h2>
+                <span id="close-cart-sidebar"><i data-feather="x"></i></span>
+            </div>
+            <!-- Total and checkout -->
+            <div class="cart-action">
+                <span class="cart-total">
+                        0.00
+                    </span>
+                <a href="cart.html" class="button view-cart-button primary-button upper-button raised is-bold">
+                    <span>View Cart</span>
+                </a>
+                <a class="button update-cart-button upper-button is-bold is-hidden">
+                    <span>Update</span>
+                </a>
+            </div>
+            <!-- Cart quickview body -->
+            <div class="cart-body">
+
+                <!--Placeholder-->
+                <div class="empty-cart has-text-centered is-hidden">
+                    <img src="assets/img/icons/line/bag.svg" alt="">
+                    <h3>Your cart is empty</h3>
+                    <p>Start by adding products to it</p>
+                    <a href="shop.html" class="button big-button rounded">Continue Shopping</a>
+                    <small>You can create your account later</small>
+                </div>
+
+                <!--Loader-->
+                <div class="cart-loader is-active">
+                    <div class="loader is-loading"></div>
+                </div>
+
+                <ul class="shopping-cart-items">
+                    <!-- Item -->
+                    <li class="clearfix">
+                        <img src="http://via.placeholder.com/250x250" data-demo-src="assets/img/products/office5.jpg" alt="" />
+                        <span class="item-meta">
+                                <span class="item-name">Cosy Chair</span>
+                        <span class="item-price">
+                                    <var>88.00</var> x <span>1</span>
+                        </span>
+                        </span>
+                        <span class="quantity">
+                                <div data-trigger="spinner" class="return-spinner">
+                                    <input class="hidden-spinner" type="hidden" value="1" data-spin="spinner"
+                                        data-rule="quantity" data-min="1" data-max="99">
+                                    <a class="spinner-button is-remove" href="javascript:;" data-spin="down">
+                                        <i data-feather="minus"></i>
+                                    </a>
+                                    <span class="spinner-value">1</span>
+                        <a class="spinner-button is-add" href="javascript:;" data-spin="up">
+                            <i data-feather="plus"></i>
+                        </a>
+            </div>
+            </span>
+
+            <span class="remove-item">
+                                <i data-feather="x" class="has-simple-popover" data-content="Remove from Cart"
+                                    data-placement="top"></i>
+                            </span>
+            </li>
+            <!-- Item -->
+            <li class="clearfix">
+                <img src="http://via.placeholder.com/250x250" data-demo-src="assets/img/products/red-seat.png" alt="" />
+                <span class="item-meta">
+                                <span class="item-name">Red Seat</span>
+                <span class="item-price">
+                                    <var>45.00</var> x <span>1</span>
+                </span>
+                </span>
+                <span class="quantity">
+                                <div data-trigger="spinner" class="return-spinner">
+                                    <input class="hidden-spinner" type="hidden" value="1" data-spin="spinner"
+                                        data-rule="quantity" data-min="1" data-max="99">
+                                    <a class="spinner-button is-remove" href="javascript:;" data-spin="down">
+                                        <i data-feather="minus"></i>
+                                    </a>
+                                    <span class="spinner-value">1</span>
+                <a class="spinner-button is-add" href="javascript:;" data-spin="up">
+                    <i data-feather="plus"></i>
+                </a>
+        </div>
+        </span>
+
+        <span class="remove-item">
+                                <i data-feather="x" class="has-simple-popover" data-content="Remove from Cart"
+                                    data-placement="top"></i>
+                            </span>
+        </li>
+        <!-- Item -->
+        <li class="clearfix">
+            <img src="http://via.placeholder.com/250x250" data-demo-src="assets/img/products/kids2.jpg" alt="" />
+            <span class="item-meta">
+                                <span class="item-name">Rabbit Lamp</span>
+            <span class="item-price">
+                                    <var>14.49</var> x <span>3</span>
+            </span>
+            </span>
+            <span class="quantity">
+                                <div data-trigger="spinner" class="return-spinner">
+                                    <input class="hidden-spinner" type="hidden" value="3" data-spin="spinner"
+                                        data-rule="quantity" data-min="1" data-max="99">
+                                    <a class="spinner-button is-remove" href="javascript:;" data-spin="down">
+                                        <i data-feather="minus"></i>
+                                    </a>
+                                    <span class="spinner-value">3</span>
+            <a class="spinner-button is-add" href="javascript:;" data-spin="up">
+                <i data-feather="plus"></i>
+            </a>
+    </div>
+    </span>
+
+    <span class="remove-item">
+                                <i data-feather="x" class="has-simple-popover" data-content="Remove from Cart"
+                                    data-placement="top"></i>
+                            </span>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+
+    <!-- Action Bar -->
+    <div class="action-bar is-centered">
+        <div class="steps-wrapper">
+            <ol class="step-list">
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Main wrapper -->
+    <div class="shop-wrapper">
+
+        <!-- Search overlay -->
+        <div class="search-overlay"></div>
+
+        <!-- Search input -->
+        <div class="search-input-wrapper is-desktop is-hidden">
+            <div class="field">
+                <div class="control">
+                    <input id="nephos-search" type="text" name="search" placeholder="Search a Product">
+                    <span id="clear-search" role="button"><i data-feather="x"></i></span>
+                    <span class="bar"></span>
+                </div>
+                <span class="search-help">Type the name of the product you are looking for</span>
+            </div>
+        </div>
+        <!-- Main section -->
+        <div id="checkout-1" class="section no-padding">
+            <div class="checkout-wrapper" data-checkout-step="1">
+
+                <!--Checkout step 1-->
+                <div class="checkout-main">
+                    <div class="checkout-container">
+                        <div class="flex-table">
+                            <!--Table header-->
+                            <div class="flex-table-header">
+                                <span class="product"><span>Product</span></span>
+                                <span class="quantity">Quantity</span>
+                                <span class="price">Price</span>
+                                <span class="discount">Discount</span>
+                                <span class="total">Total</span>
+                            </div>
+                            <!--Table item-->
+                            <div class="flex-table-item" data-product-id="107">
+                                <div class="product">
+                                    <img src="http://via.placeholder.com/250x250" data-demo-src="assets/img/products/kids2.jpg" alt="">
+                                    <span class="product-name">Rabbit Lamp</span>
+                                </div>
+                                <div class="quantity">
+                                    <span>1</span>
+                                </div>
+                                <div class="price">
+                                    <span class="has-price">14.49</span>
+                                </div>
+                                <div class="discount">
+                                    <span class="has-price">0</span>
+                                </div>
+                                <div class="total">
+                                    <span class="has-price">14.49</span>
+                                </div>
+                            </div>
+                            <!--Table item-->
+                            <div class="flex-table-item" data-product-id="107">
+                                <div class="product">
+                                    <img src="http://via.placeholder.com/250x250" data-demo-src="assets/img/products/cosy-red-seat.png" alt="">
+                                    <span class="product-name">Red Seat</span>
+                                </div>
+                                <div class="quantity">
+                                    <span>1</span>
+                                </div>
+                                <div class="price">
+                                    <span class="has-price">45.00</span>
+                                </div>
+                                <div class="discount">
+                                    <span class="has-price">0</span>
+                                </div>
+                                <div class="total">
+                                    <span class="has-price">45.00</span>
+                                </div>
+                            </div>
+                            <!--Table item-->
+                            <div class="flex-table-item" data-product-id="107">
+                                <div class="product">
+                                    <img src="http://via.placeholder.com/250x250" data-demo-src="assets/img/products/blue-seat.png" alt="">
+                                    <span class="product-name">Blue Seat</span>
+                                </div>
+                                <div class="quantity">
+                                    <span>2</span>
+                                </div>
+                                <div class="price">
+                                    <span class="has-price">35.00</span>
+                                </div>
+                                <div class="discount">
+                                    <span class="has-price">0</span>
+                                </div>
+                                <div class="total">
+                                    <span class="has-price">70.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="coupon-wrapper">
+                            <h3>Apply Coupon Code</h3>
+                            <p>Enter any promotional code you have here. Promotional codes can only be used once.</p>
+                            <div class="field">
+                                <div class="control has-icon is-bigger">
+                                    <input type="text" class="input is-default" placeholder="Paste Coupon Code">
+                                    <div class="form-icon">
+                                        <i data-feather="tag"></i>
+                                    </div>
+                                    <button class="button primary-button raised coupon-button">Apply Coupon</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkout-side">
+                    <div class="side-header">
+                        <h2 class="side-title">Checkout</h2>
+                        <a href="/cart.html" class="button is-rounded checkout-back">Previous</a>
+                    </div>
+                    <div class="side-inner has-slimscroll">
+                        <div class="side-card user-card">
+                            <div class="avatar-container">
+                                <img id="checkout-avatar" src="http://via.placeholder.com/250x250" data-demo-src="assets/img/avatars/elie.jpg" alt="">
+                            </div>
+                            <div class="meta">
+                                <span>Checkout as</span>
+                                <span id="checkout-username">Elie Daniels</span>
+                            </div>
+                        </div>
+
+                        <div class="side-card is-address">
+                            <label class="form-switch is-vhidden">
+                                <input id="shipping-switch" type="checkbox" class="is-switch">
+                                <i></i>
+                            </label>
+                            <h3 class="address-title">Shipping Address</h3>
+                            <p class="address">
+                                <var id="shipping-address1">463 San Bernardo Ave</var>, <var id="shipping-address2">Crimson Road</var>
+                                <br><var id="shipping-city">Long Beach</var>, <var id="shipping-state">CA</var> <var id="shipping-postalCode">90808</var>
+                                <br><var id="shipping-country">United States</var>
+                            </p>
+                        </div>
+
+                        <div class="side-card is-totals">
+                            <h3 class="info-title">Payment Information</h3>
+                            <div class="payment-block">
+                                <span>Order subtotal</span>
+                                <span id="checkout-subtotal-value" class="has-price">200.37</span>
+                            </div>
+                            <div class="payment-block">
+                                <span>Order shipping</span>
+                                <span id="checkout-shipping-value" class="has-price">0.00</span>
+                            </div>
+                            <div class="payment-block">
+                                <span>Order tax</span>
+                                <span id="checkout-tax-value" class="has-price">7.82</span>
+                            </div>
+                            <div class="payment-block">
+                                <span class="is-bold">Order total</span>
+                                <span id="checkout-grandtotal-value" class="has-price is-bold">208.09</span>
+                            </div>
+                        </div>
+
+                        <div class="side-action">
+                            <button id="checkout-next" class="button primary-button raised is-fullwidth is-rounded">Next Step</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Main section -->
+    </div>
+    <!-- /Main wrapper -->
+
+    <div id="checkout-blocked-modal" class="modal checkout-blocked-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <div class="box-header">
+                    <img src="assets/img/logo/nephos-greyscale.svg" alt="">
+                    <span></span>
+                </div>
+                <div class="box-body">
+                    <div class="inner-content">
+                        <div class="modal-placeholder">
+                            <div class="placeholder-content">
+                                <img src="assets/img/illustrations/payment.svg" alt="">
+                                <h3>Checkout is Blocked</h3>
+                                <p>You currently don't have any checkout data. Please start checkout from the cart page.</p>
+                                <div class="button-wrap">
+                                    <a href="cart.html" class="button big-button primary-button rounded raised">View My Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="checkout-unauth-modal" class="modal checkout-unauth-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <div class="box-header">
+                    <img src="assets/img/logo/nephos-greyscale.svg" alt="">
+                    <span></span>
+                </div>
+                <div class="box-body">
+                    <div class="inner-content">
+                        <div class="modal-placeholder">
+                            <div class="placeholder-content">
+                                <img src="assets/img/illustrations/login.svg" alt="">
+                                <h3>Hello, guest</h3>
+                                <p>You cannot start checking out without being logged to your account. Please login to your account first.</p>
+                                <div class="button-wrap">
+                                    <a href="authentication.html" class="button big-button primary-button rounded raised">Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Concatenated plugins -->
+    <script src="assets/js/app.js"></script>
+
+    <!--Data-->
+    <script src="assets/js/_data-wishlist.js"></script>
+    <script src="assets/js/_data-addresses.js"></script>
+    <script src="assets/js/_data-orders.js"></script>
+
+    <!-- Nephos js -->
+    <script src="assets/js/functions.js"></script>
+    <script src="assets/js/nephos.js"></script>
+    <script src="assets/js/authentication.js"></script>
+    <script src="assets/js/cart.js"></script>
+
+    <!--Pages-->
+    <script src="assets/js/account.js"></script>
+    <script src="assets/js/wishlist.js"></script>
+    <script src="assets/js/product.js"></script>
+    <script src="assets/js/orders.js"></script>
+    <script src="assets/js/order.js"></script>
+    <script src="assets/js/checkout.js"></script>
+    <script src="assets/js/search.js"></script>
+</body>
+
+</html>
