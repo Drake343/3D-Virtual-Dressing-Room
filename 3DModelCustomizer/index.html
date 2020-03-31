@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway:500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- We add the loader CSS here so that assets don't pop in before the bundled CSS is loaded -->
-    <style>
+    <!-- <style>
     .loading {
         position: fixed;
         z-index: 50;
@@ -60,7 +60,7 @@
             transform: rotateY(180deg) rotateX(180deg);
         }
     }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -75,25 +75,25 @@
         <div class="option --is-active" data-option="legs">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/legs.svg" alt="" />
         </div>
-        <div class="option" data-option="cushions">
+        <!-- <div class="option" data-option="cushions">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/cushions.svg" alt="" />
-        </div>
-        <div class="option" data-option="base">
+        </div> -->
+        <!-- <div class="option" data-option="base">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/base.svg" alt="" />
-        </div>
+        </div> -->
         <div class="option" data-option="supports">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/supports.svg" alt="" />
         </div>
-        <div class="option" data-option="back">
+        <!-- <div class="option" data-option="back">
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/back.svg" alt="" />
-        </div>
+        </div> -->
     </div>
     <!-- The canvas element is used to draw the 3D scene -->
     <canvas id="c"></canvas>
     <div class="controls">
         <div class="info">
             <div class="info__message">
-                <p><strong>&nbsp;Grab&nbsp;</strong> to rotate chair. <strong>&nbsp;Scroll&nbsp;</strong> to zoom. <strong>&nbsp;Drag&nbsp;</strong> swatches to view more.</p>
+                <p><strong>&nbsp;Grab&nbsp;</strong> to rotate. <strong>&nbsp;Scroll&nbsp;</strong> to zoom. <strong>&nbsp;Drag&nbsp;</strong> swatches to view more.</p>
             </div>
         </div>
         <!-- This tray will be filled with colors via JS, and the ability to slide this panel will be added in with a lightweight slider script (no dependency used for this) -->
@@ -101,13 +101,7 @@
             <div id="js-tray-slide" class="tray__slide"></div>
         </div>
     </div>
-    <div class="frame">
-		<h1 class="frame__title">3D Model Color Customizer App with Three.js</h1>
-		<div class="frame__links">
-			<a href="https://tympanus.net/Tutorials/webcam-audio-visualizer/">Previous demo</a>
-			<a href="https://tympanus.net/codrops/?p=43333">Tutorial</a>
-		</div>
-	</div>
+   
     <!-- The main three.js file -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
     <!-- This brings in the ability to load custom 3D objects in the .gltf file format. Blender allows the ability to export to this format out the box -->

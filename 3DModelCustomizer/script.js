@@ -5,36 +5,36 @@ const DRAG_NOTICE = document.getElementById('js-drag-notice');
 
 var theModel;
 
-const MODEL_PATH = "chair.glb";
+const MODEL_PATH = "untitled.glb";
 
 var activeOption = 'legs';
 var loaded = false;
 
 const colors = [
-{
-  texture: 'img/wood_.jpg',
-  size: [2, 2, 2],
-  shininess: 60 },
+// {
+//   texture: 'img/wood_.jpg',
+//   size: [2, 2, 2],
+//   shininess: 60 },
 
-{
-  texture: 'img/fabric_.jpg',
-  size: [4, 4, 4],
-  shininess: 0 },
+// {
+//   texture: 'img/fabric_.jpg',
+//   size: [4, 4, 4],
+//   shininess: 0 },
 
-{
-  texture: 'img/pattern_.jpg',
-  size: [8, 8, 8],
-  shininess: 10 },
+// {
+//   texture: 'img/pattern_.jpg',
+//   size: [8, 8, 8],
+//   shininess: 10 },
 
-{
-  texture: 'img/denim_.jpg',
-  size: [3, 3, 3],
-  shininess: 0 },
+// {
+//   texture: 'img/denim_.jpg',
+//   size: [3, 3, 3],
+//   shininess: 0 },
 
-{
-  texture: 'img/quilt_.jpg',
-  size: [6, 6, 6],
-  shininess: 0 },
+// {
+//   texture: 'img/quilt_.jpg',
+//   size: [6, 6, 6],
+//   shininess: 0 },
 
 {
   color: '131417' },
@@ -217,9 +217,9 @@ camera.position.x = 0;
 const INITIAL_MTL = new THREE.MeshPhongMaterial({ color: 0xf1f1f1, shininess: 10 });
 
 const INITIAL_MAP = [
-{ childID: "back", mtl: INITIAL_MTL },
-{ childID: "base", mtl: INITIAL_MTL },
-{ childID: "cushions", mtl: INITIAL_MTL },
+// { childID: "back", mtl: INITIAL_MTL },
+// { childID: "base", mtl: INITIAL_MTL },
+// { childID: "cushions", mtl: INITIAL_MTL },
 { childID: "legs", mtl: INITIAL_MTL },
 { childID: "supports", mtl: INITIAL_MTL }];
 
@@ -238,7 +238,7 @@ loader.load(MODEL_PATH, function (gltf) {
   });
 
   // Set the models initial scale   
-  theModel.scale.set(2, 2, 2);
+  theModel.scale.set(0.01, 0.01, 0.01);
   theModel.rotation.y = Math.PI;
 
   // Offset the y position a bit
