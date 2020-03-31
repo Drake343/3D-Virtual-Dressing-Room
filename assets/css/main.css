@@ -17630,5 +17630,7 @@ textarea.textarea.is-button+.textarea-button button {
     margin: auto;
     display: block;
 }
-
+#sidebar-mode{
+    display: none;
+}
 /*# sourceMappingURL=../../../scss */
