@@ -17,7 +17,7 @@ var {
 /* line 22, src/assets/scss/base/_base.scss */
 
 a {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -817,14 +817,14 @@ a {
 
 .SuccessAnimation.is-primary .SuccessAnimationCircle,
 .SuccessAnimation.is-primary .SuccessAnimationCheck {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
 /* line 433, src/assets/scss/abstracts/_animations.scss */
 
 .SuccessAnimation.is-primary .SuccessAnimationResult {
-    fill: #3080ff
+    fill: #07557b
 }
 
 
@@ -1122,7 +1122,7 @@ body {
 /* line 168, src/assets/scss/layout/_layout.scss */
 
 .shop-wrapper .slider-wrapper .slick-dots li.slick-active button::before {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -1133,7 +1133,7 @@ body {
     right: 0;
     left: 0;
     margin: 0 auto;
-    padding: 120px 0;
+    padding: 50px 0 0 0;
     text-align: center;
     z-index: 1
 }
@@ -1142,8 +1142,16 @@ body {
 /* line 185, src/assets/scss/layout/_layout.scss */
 
 .shop-wrapper .hero-caption h1 {
-    font-size: 8rem;
-    font-weight: 300 !important;
+    color: #fff;
+    font-size: 5rem;
+    border: 5px solid;
+    width: fit-content;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    font-weight: 400 !important;
     font-family: 'Alegreya Sans SC', sans-serif
 }
 
@@ -1161,6 +1169,9 @@ body {
 /* line 198, src/assets/scss/layout/_layout.scss */
 
 .shop-wrapper .hero-caption .button {
+    width: 15%;
+    margin: auto;
+    display: flex;
     margin-top: 20px;
     font-size: 0.8rem !important
 }
@@ -1281,7 +1292,7 @@ body {
 
 .mobile-navbar .navbar-item.is-icon svg {
     stroke-width: 1.6px;
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -1458,7 +1469,7 @@ body {
     border-right: 1px solid #ededed;
     z-index: 10;
     -webkit-transition: all .3s;
-    transition: all .3s
+    transition: all .3s;
 }
 
 
@@ -1564,7 +1575,7 @@ body {
 .main-sidebar .sidebar-inner .icon-menu li a.is-active svg,
 .main-sidebar .sidebar-inner .bottom-menu li a:hover svg,
 .main-sidebar .sidebar-inner .bottom-menu li a.is-active svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -1588,7 +1599,7 @@ body {
     -ms-flex-align: center;
     align-items: center;
     font-size: 9px;
-    background: #3080ff;
+    background: #07557b;
     font-weight: 700
 }
 
@@ -1767,7 +1778,7 @@ body {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #3080ff;
+    background: #07557b;
     cursor: pointer;
     -webkit-transition: background .15s ease-in-out;
     transition: background .15s ease-in-out;
@@ -1784,14 +1795,14 @@ body {
 /* line 81, src/assets/scss/layout/_filters.scss */
 
 .range-slider .input-range::-webkit-slider-thumb:hover {
-    background: #3080ff
+    background: #07557b
 }
 
 
 /* line 84, src/assets/scss/layout/_filters.scss */
 
 .range-slider .input-range:active::-moz-range-thumb {
-    background: #3080ff
+    background: #07557b
 }
 
 
@@ -1802,7 +1813,7 @@ body {
     height: 16px;
     border: 0;
     border-radius: 50%;
-    background: #3080ff;
+    background: #07557b;
     cursor: pointer;
     -webkit-transition: background .15s ease-in-out;
     transition: background .15s ease-in-out
@@ -1814,7 +1825,7 @@ body {
 .range-slider .range-value {
     display: block !important;
     position: relative;
-    color: #3080ff;
+    color: #07557b;
     font-size: 14px;
     font-weight: 500;
     padding: 0 10px
@@ -2139,8 +2150,8 @@ button[type=submit],
 
 .button.primary-button {
     outline: none;
-    border-color: #3080ff;
-    background-color: #3080ff;
+    border-color: #07557b;
+    background-color: #07557b;
     color: #fff;
     -webkit-transition: all 0.5s;
     transition: all 0.5s
@@ -2173,8 +2184,8 @@ button[type=submit],
 /* line 124, src/assets/scss/components/_buttons.scss */
 
 .button.primary-button.btn-outlined {
-    border-color: #3080ff;
-    color: #3080ff !important;
+    border-color: #07557b;
+    color: #07557b !important;
     background-color: transparent
 }
 
@@ -2183,14 +2194,14 @@ button[type=submit],
 
 .button.primary-button.btn-outlined:hover {
     color: #fff !important;
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
 /* line 135, src/assets/scss/components/_buttons.scss */
 
 .button.primary-button:focus {
-    border-color: #3080ff
+    border-color: #07557b
 }
 
 
@@ -2394,7 +2405,7 @@ button[type=submit],
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
@@ -2408,7 +2419,7 @@ button[type=submit],
     border-radius: 50%;
     width: 10px;
     height: 10px;
-    border: 1.4px solid #3080ff
+    border: 1.4px solid #07557b
 }
 
 
@@ -2422,7 +2433,7 @@ button[type=submit],
     border-radius: 50%;
     width: 4px;
     height: 4px;
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
@@ -2436,7 +2447,7 @@ button[type=submit],
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    border: 2px solid #3080ff
+    border: 2px solid #07557b
 }
 
 
@@ -2450,7 +2461,7 @@ button[type=submit],
     border-radius: 50%;
     width: 8px;
     height: 8px;
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
@@ -2464,7 +2475,7 @@ button[type=submit],
     border-radius: 50%;
     width: 12px;
     height: 12px;
-    border: 1.4px solid #3080ff
+    border: 1.4px solid #07557b
 }
 
 
@@ -2478,7 +2489,7 @@ button[type=submit],
     border-radius: 50%;
     width: 5px;
     height: 5px;
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
@@ -2528,7 +2539,7 @@ button[type=submit],
 /* line 51, src/assets/scss/components/_modals.scss */
 
 .review-modal .modal-content .modal-delete svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -2718,7 +2729,7 @@ button[type=submit],
 /* line 181, src/assets/scss/components/_modals.scss */
 
 .wishlist-modal .modal-content .modal-delete svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -2880,7 +2891,7 @@ button[type=submit],
 /* line 290, src/assets/scss/components/_modals.scss */
 
 .add-to-wishlist-modal .modal-content .modal-delete svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -3066,15 +3077,15 @@ button[type=submit],
 /* line 405, src/assets/scss/components/_modals.scss */
 
 .add-to-wishlist-modal .modal-content .box .box-body .inner-content .wishlist-modal-list ul li.is-active .meta span.name {
-    color: #3080ff
+    color: #07557b
 }
 
 
 /* line 411, src/assets/scss/components/_modals.scss */
 
 .add-to-wishlist-modal .modal-content .box .box-body .inner-content .wishlist-modal-list ul li.is-active .selected-indicator {
-    background: #3080ff;
-    border-color: #3080ff;
+    background: #07557b;
+    border-color: #07557b;
     -webkit-box-shadow: 0 14px 26px -12px rgba(0, 35, 255, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 35, 255, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(0, 35, 255, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 35, 255, 0.2) !important;
     -webkit-transform: scale(1);
@@ -3225,7 +3236,7 @@ button[type=submit],
 /* line 516, src/assets/scss/components/_modals.scss */
 
 .upload-crop-modal .modal-content .modal-delete svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -3471,7 +3482,7 @@ button[type=submit],
 
 .checkout-blocked-modal .modal-content .modal-delete svg:hover,
 .checkout-unauth-modal .modal-content .modal-delete svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -3744,7 +3755,7 @@ button[type=submit],
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #3080ff;
+    background: #07557b;
     margin: -1.5px 0 0 -10px;
     left: 50%;
     top: 50%;
@@ -3759,7 +3770,7 @@ button[type=submit],
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #3080ff;
+    background: #07557b;
     margin: -2px 0 0 -10px;
     left: 50%;
     top: 30%;
@@ -3774,7 +3785,7 @@ button[type=submit],
     position: absolute;
     width: 20px;
     height: 2px;
-    background: #3080ff;
+    background: #07557b;
     margin: 1.5px 0 0 -10px;
     left: 50%;
     top: 60%;
@@ -3904,14 +3915,14 @@ button[type=submit],
 /* line 232, src/assets/scss/components/_quickview.scss */
 
 .category-quickview .inner .category-menu li a:hover span {
-    color: #3080ff
+    color: #07557b
 }
 
 
 /* line 236, src/assets/scss/components/_quickview.scss */
 
 .category-quickview .inner .category-menu li a:hover svg {
-    fill: #3080ff
+    fill: #07557b
 }
 
 
@@ -3939,7 +3950,7 @@ button[type=submit],
 .category-quickview .inner .all-categories .centered-divider {
     width: 100px;
     height: 1px;
-    border-bottom: 2px solid #3080ff;
+    border-bottom: 2px solid #07557b;
     margin: 0 auto;
     padding-top: 8px
 }
@@ -4308,7 +4319,7 @@ button[type=submit],
 /* line 506, src/assets/scss/components/_quickview.scss */
 
 .filters-quickview .inner .quickview-header svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -4479,7 +4490,7 @@ button[type=submit],
 /* line 624, src/assets/scss/components/_quickview.scss */
 
 .cart-quickview .inner .quickview-header svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -4656,8 +4667,8 @@ button[type=submit],
 
 .cart-quickview .inner .cart-body .empty-cart a {
     margin-top: 10px;
-    color: #3080ff;
-    border: 1.4px solid #3080ff;
+    color: #07557b;
+    border: 1.4px solid #07557b;
     -webkit-transition: all .4s;
     transition: all .4s
 }
@@ -4667,8 +4678,8 @@ button[type=submit],
 
 .cart-quickview .inner .cart-body .empty-cart a:hover {
     color: #fff;
-    border-color: #3080ff;
-    background: #3080ff;
+    border-color: #07557b;
+    background: #07557b;
     -webkit-box-shadow: 0 14px 26px -12px rgba(0, 35, 255, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 35, 255, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(0, 35, 255, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 35, 255, 0.2) !important
 }
@@ -4780,7 +4791,7 @@ button[type=submit],
 /* line 824, src/assets/scss/components/_quickview.scss */
 
 .cart-quickview .inner .cart-body .shopping-cart-items .item-price var {
-    color: #3080ff;
+    color: #07557b;
     margin-right: 4px;
     font-size: .8rem;
     font-weight: 500
@@ -4874,7 +4885,7 @@ button[type=submit],
 /* line 879, src/assets/scss/components/_quickview.scss */
 
 .cart-quickview .inner .cart-body .shopping-cart-items .quantity .sidebar-spinner .spinner-button:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -5026,7 +5037,7 @@ button[type=submit],
 
 .flat-card .product-info a:hover {
     opacity: 0.8;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -5053,7 +5064,7 @@ button[type=submit],
 .flat-card .product-info .product-price {
     font-size: 90%;
     font-weight: 500;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -5201,7 +5212,7 @@ button[type=submit],
 
 .flat-card .actions div.add svg.is-active,
 .flat-card .actions span.add svg.is-active {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -5209,7 +5220,7 @@ button[type=submit],
 
 .flat-card .actions div.add:hover svg,
 .flat-card .actions span.add:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -5251,7 +5262,7 @@ button[type=submit],
     width: 90px;
     height: 90px;
     padding: 9px;
-    background: #3080ff;
+    background: #07557b;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5820,7 +5831,7 @@ button[type=submit],
 /* line 79, src/assets/scss/components/_switch.scss */
 
 .form-switch input:checked+i {
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
@@ -5913,7 +5924,7 @@ button[type=submit],
 
 .ajs-content b {
     font-weight: 500 !important;
-    color: #3080ff !important
+    color: #07557b !important
 }
 
 
@@ -5943,9 +5954,9 @@ button[type=submit],
     font-weight: 500 !important;
     font-size: .75rem;
     border-radius: 3px;
-    background: #3080ff !important;
+    background: #07557b !important;
     color: #fff !important;
-    border: 1px solid #3080ff;
+    border: 1px solid #07557b;
     border-radius: 100px;
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -6151,14 +6162,14 @@ textarea.textarea:focus {
 /* line 32, src/assets/scss/components/_forms.scss */
 
 textarea.textarea.is-primary-focus:focus {
-    border-color: #3080ff
+    border-color: #07557b
 }
 
 
 /* line 35, src/assets/scss/components/_forms.scss */
 
 textarea.textarea.is-primary-focus:focus~span.icon i {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -6427,7 +6438,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 216, src/assets/scss/components/_forms.scss */
 
 .field .control.has-icon .input:focus+.form-icon svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -6664,8 +6675,8 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 379, src/assets/scss/components/_forms.scss */
 
 .special-toggle .toggler .active {
-    background: #3080ff;
-    border-color: #3080ff;
+    background: #07557b;
+    border-color: #07557b;
     -webkit-box-shadow: 0 14px 26px -12px rgba(0, 35, 255, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 35, 255, 0.2) !important;
     box-shadow: 0 14px 26px -12px rgba(0, 35, 255, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 35, 255, 0.2) !important;
     opacity: 0;
@@ -6738,9 +6749,9 @@ textarea.textarea.is-button+.textarea-button button {
     stroke-dashoffset: 166;
     stroke-width: 2;
     stroke-miterlimit: 10;
-    stroke: #3080ff;
+    stroke: #07557b;
     fill: none;
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -6754,8 +6765,8 @@ textarea.textarea.is-button+.textarea-button button {
     stroke-width: 2;
     stroke: #cecece;
     stroke-miterlimit: 10;
-    -webkit-box-shadow: inset 0px 0px 0px #3080ff;
-    box-shadow: inset 0px 0px 0px #3080ff
+    -webkit-box-shadow: inset 0px 0px 0px #07557b;
+    box-shadow: inset 0px 0px 0px #07557b
 }
 
 
@@ -6766,7 +6777,7 @@ textarea.textarea.is-button+.textarea-button button {
     transform-origin: 50% 50%;
     stroke-dasharray: 48;
     stroke-dashoffset: 48;
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -7268,7 +7279,7 @@ textarea.textarea.is-button+.textarea-button button {
     text-transform: uppercase;
     font-size: 85%;
     font-weight: 600;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -7332,7 +7343,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 305, src/assets/scss/pages/_categories.scss */
 
 .listing-controls .layout-controls span.is-active svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -7371,7 +7382,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 328, src/assets/scss/pages/_categories.scss */
 
 .listing-controls .search-field .control .input:focus+.search-icon svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -7456,7 +7467,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 386, src/assets/scss/pages/_categories.scss */
 
 .sort-box .chosen-container .chosen-results li.highlighted {
-    color: #3080ff !important
+    color: #07557b !important
 }
 
 
@@ -7680,8 +7691,8 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 114, src/assets/scss/pages/_account.scss */
 
 .account-tabs li.is-active a {
-    color: #3080ff;
-    border-color: #3080ff
+    color: #07557b;
+    border-color: #07557b
 }
 
 
@@ -7835,7 +7846,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 213, src/assets/scss/pages/_account.scss */
 
 .main-placeholder .placeholder-content>a:hover {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -8045,7 +8056,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .profile-info-card .card-title .edit-account a:hover,
 .menu-card .card-title .edit-account a:hover {
-    border: 1.8px solid #3080ff
+    border: 1.8px solid #07557b
 }
 
 
@@ -8053,7 +8064,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .profile-info-card .card-title .edit-account a:hover svg,
 .menu-card .card-title .edit-account a:hover svg {
-    stroke: #3080ff;
+    stroke: #07557b;
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg)
 }
@@ -8448,7 +8459,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 600, src/assets/scss/pages/_account.scss */
 
 .menu-card .wishlists li .action-block .remove-button:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -8673,7 +8684,7 @@ textarea.textarea.is-button+.textarea-button button {
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .add-button:hover .remove-button-inner,
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .remove-button:hover .add-button-inner,
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .remove-button:hover .remove-button-inner {
-    border: 1.8px solid #3080ff
+    border: 1.8px solid #07557b
 }
 
 
@@ -8683,7 +8694,7 @@ textarea.textarea.is-button+.textarea-button button {
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .add-button:hover .remove-button-inner svg,
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .remove-button:hover .add-button-inner svg,
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .remove-button:hover .remove-button-inner svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -8744,14 +8755,14 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 778, src/assets/scss/pages/_account.scss */
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-button a:hover {
-    border: 1.8px solid #3080ff
+    border: 1.8px solid #07557b
 }
 
 
 /* line 781, src/assets/scss/pages/_account.scss */
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-button a:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -8792,7 +8803,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 808, src/assets/scss/pages/_account.scss */
 
 .wishlist-card .wishlist .wishlist-item .item-wrapper .action .dropdown-item:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -8805,7 +8816,7 @@ textarea.textarea.is-button+.textarea-button button {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #3080ff;
+    background: #07557b;
     display: none;
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -8879,7 +8890,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 872, src/assets/scss/pages/_account.scss */
 
 .wishlist-pagination ul li.is-active span {
-    background: #3080ff;
+    background: #07557b;
     font-weight: 500;
     -webkit-box-shadow: 0px 5px 43px rgba(0, 0, 0, 0.18) !important;
     box-shadow: 0px 5px 43px rgba(0, 0, 0, 0.18) !important
@@ -8988,7 +8999,7 @@ textarea.textarea.is-button+.textarea-button button {
     opacity: 0;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -9199,7 +9210,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 127, src/assets/scss/pages/_cart.scss */
 
 .cart-card .cart-content li .main-cart-spinner .spinner-button:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -9288,28 +9299,28 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 182, src/assets/scss/pages/_cart.scss */
 
 .cart-card .cart-content li .action .action-link a:hover {
-    border: 1.6px solid #3080ff
+    border: 1.6px solid #07557b
 }
 
 
 /* line 185, src/assets/scss/pages/_cart.scss */
 
 .cart-card .cart-content li .action .action-link a:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
 /* line 192, src/assets/scss/pages/_cart.scss */
 
 .cart-card .cart-content li .action .action-link.is-remove:hover a {
-    border: 1.8px solid #3080ff
+    border: 1.8px solid #07557b
 }
 
 
 /* line 196, src/assets/scss/pages/_cart.scss */
 
 .cart-card .cart-content li .action .action-link.is-remove:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -9447,8 +9458,8 @@ textarea.textarea.is-button+.textarea-button button {
 
 .empty-cart-card .empty-cart a {
     margin-top: 20px;
-    color: #3080ff;
-    border: 1.4px solid #3080ff;
+    color: #07557b;
+    border: 1.4px solid #07557b;
     -webkit-transition: all .4s;
     transition: all .4s
 }
@@ -9519,7 +9530,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 41, src/assets/scss/pages/_orders.scss */
 
 .order-card .order-info span a:hover {
-    color: #3080ff;
+    color: #07557b;
     text-decoration: underline
 }
 
@@ -9585,7 +9596,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 88, src/assets/scss/pages/_orders.scss */
 
 .order-card .tag.is-primary {
-    background: #3080ff !important;
+    background: #07557b !important;
     color: #fff !important
 }
 
@@ -9705,7 +9716,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 164, src/assets/scss/pages/_orders.scss */
 
 .order-long-card .left-side .order-header .tag.is-primary {
-    background: #3080ff !important;
+    background: #07557b !important;
     color: #fff !important
 }
 
@@ -9865,7 +9876,7 @@ textarea.textarea.is-button+.textarea-button button {
 .order-long-card .left-side .ordered-products .ordered-product .product-meta span.price span:first-child {
     margin-right: 8px;
     font-weight: 600;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -10095,7 +10106,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .order-top-actions a:hover {
     text-decoration: underline;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -10969,7 +10980,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 102, src/assets/scss/pages/_product.scss */
 
 .product-panel .product-actions .zoom-buttons svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -10991,7 +11002,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 116, src/assets/scss/pages/_product.scss */
 
 .product-panel .product-actions .right-actions svg:hover {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -11008,7 +11019,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 127, src/assets/scss/pages/_product.scss */
 
 .product-panel .product-actions .right-actions span.is-active svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -11115,7 +11126,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 193, src/assets/scss/pages/_product.scss */
 
 .product-panel .detailed-description .meta-block .colored-dots .dot-wrapper .dot.is-blue {
-    background: #3080ff
+    background: #07557b
 }
 
 
@@ -11220,7 +11231,7 @@ textarea.textarea.is-button+.textarea-button button {
 .product-panel .product-ratings span small {
     font-size: 0.9rem;
     font-weight: 500;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -11261,14 +11272,14 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 289, src/assets/scss/pages/_product.scss */
 
 .product-panel .product-ratings .add-review:hover {
-    color: #3080ff
+    color: #07557b
 }
 
 
 /* line 292, src/assets/scss/pages/_product.scss */
 
 .product-panel .product-ratings .add-review:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -11478,7 +11489,7 @@ textarea.textarea.is-button+.textarea-button button {
 .product-info-panel .inner-panel .panel-body .product-controls .product-price .value span:first-child {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -11577,7 +11588,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 501, src/assets/scss/pages/_product.scss */
 
 .product-info-panel .inner-panel .panel-body .product-controls .product-quantity .details-spinner .spinner-button:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -11764,7 +11775,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 48, src/assets/scss/pages/_checkout.scss */
 
 .steps-wrapper .step-list .active:before {
-    background: #3080ff;
+    background: #07557b;
     color: #fff;
     border-color: #fff;
     font-weight: 500
@@ -11813,7 +11824,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 93, src/assets/scss/pages/_checkout.scss */
 
 .steps-wrapper .step-list .active:after {
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
@@ -12129,7 +12140,7 @@ textarea.textarea.is-button+.textarea-button button {
 .checkout-wrapper .checkout-main .checkout-container .order-summary .shipping-methods-grid .method-card .change-link:hover,
 .checkout-wrapper .checkout-main .checkout-container .order-summary .payment-methods-grid .method-card .change-link:hover,
 .checkout-wrapper .checkout-main .checkout-container .order-summary .order-summary-grid .method-card .change-link:hover {
-    color: #3080ff;
+    color: #07557b;
     text-decoration: underline
 }
 
@@ -12166,7 +12177,7 @@ textarea.textarea.is-button+.textarea-button button {
 .checkout-wrapper .checkout-main .checkout-container .order-summary .shipping-methods-grid .method-card>input:checked~.method-card-inner,
 .checkout-wrapper .checkout-main .checkout-container .order-summary .payment-methods-grid .method-card>input:checked~.method-card-inner,
 .checkout-wrapper .checkout-main .checkout-container .order-summary .order-summary-grid .method-card>input:checked~.method-card-inner {
-    border-color: #3080ff;
+    border-color: #07557b;
     -webkit-box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06);
     box-shadow: -1px 3px 15px 0 rgba(0, 0, 0, 0.06)
 }
@@ -12292,7 +12303,7 @@ textarea.textarea.is-button+.textarea-button button {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background: #3080ff;
+    background: #07557b;
     border-radius: 50%;
     border: 2px solid #fff
 }
@@ -12499,7 +12510,7 @@ textarea.textarea.is-button+.textarea-button button {
 .checkout-wrapper .checkout-main .checkout-container .checkout-shipping-methods .payment-disclaimer p a:hover,
 .checkout-wrapper .checkout-main .checkout-container .checkout-payment-methods .payment-disclaimer p a:hover,
 .checkout-wrapper .checkout-main .checkout-container .order-summary .payment-disclaimer p a:hover {
-    color: #3080ff;
+    color: #07557b;
     text-decoration: underline
 }
 
@@ -12941,7 +12952,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 708, src/assets/scss/pages/_checkout.scss */
 
 .checkout-wrapper .checkout-side .side-inner .side-card.is-shipping-method .method-title a:hover {
-    color: #3080ff;
+    color: #07557b;
     text-decoration: underline
 }
 
@@ -12987,7 +12998,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .checkout-title h3 {
     font-weight: 500;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -13102,7 +13113,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 836, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.is-checkout-form .customer-wrapper .switch a:hover {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -13174,7 +13185,7 @@ textarea.textarea.is-button+.textarea-button button {
     text-transform: uppercase;
     font-size: 70%;
     font-weight: 500;
-    color: #3080ff;
+    color: #07557b;
     display: none
 }
 
@@ -13220,7 +13231,7 @@ textarea.textarea.is-button+.textarea-button button {
     height: 32px;
     border: 2px solid #99a7ff;
     border-radius: 50%;
-    background: #3080ff
+    background: #07557b
 }
 
 
@@ -13237,21 +13248,21 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 933, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card.is-active {
-    border-color: #3080ff
+    border-color: #07557b
 }
 
 
 /* line 936, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card.is-active svg {
-    fill: #3080ff
+    fill: #07557b
 }
 
 
 /* line 940, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.is-checkout-form .shipping-wrapper .mini-card.is-active .shipping-method {
-    color: #3080ff;
+    color: #07557b;
     display: none
 }
 
@@ -13351,7 +13362,7 @@ textarea.textarea.is-button+.textarea-button button {
 .flat-card.is-checkout-form .verification-wrapper .total-price span:nth-child(4) {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    color: #3080ff;
+    color: #07557b;
     margin: 5px 0;
     font-size: .85rem
 }
@@ -13446,7 +13457,7 @@ textarea.textarea.is-button+.textarea-button button {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 90%;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -13487,7 +13498,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .flat-card.is-checkout-form .payment-wrapper .subtotal .vat-value {
     font-weight: 500;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -13659,21 +13670,21 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 1232, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.payment-method:hover.is-credit-card {
-    border-color: #3080ff
+    border-color: #07557b
 }
 
 
 /* line 1235, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.payment-method:hover.is-credit-card svg {
-    fill: #3080ff
+    fill: #07557b
 }
 
 
 /* line 1239, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.payment-method:hover.is-credit-card .payment-text {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -13735,8 +13746,8 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 1284, src/assets/scss/pages/_checkout.scss */
 
 .flat-card.thanks-card .big-button {
-    border: 2px solid #3080ff;
-    color: #3080ff;
+    border: 2px solid #07557b;
+    color: #07557b;
     font-weight: 500
 }
 
@@ -14060,7 +14071,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .auth-title h3 {
     font-weight: 500;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -14121,21 +14132,21 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 74, src/assets/scss/pages/_auth.scss */
 
 .auth-toggler>input:checked+.toggler-track .hexagon-wrap .hexagon {
-    background-color: #3080ff
+    background-color: #07557b
 }
 
 
 /* line 77, src/assets/scss/pages/_auth.scss */
 
 .auth-toggler>input:checked+.toggler-track .hexagon-wrap .hexagon:before {
-    border-bottom-color: #3080ff
+    border-bottom-color: #07557b
 }
 
 
 /* line 81, src/assets/scss/pages/_auth.scss */
 
 .auth-toggler>input:checked+.toggler-track .hexagon-wrap .hexagon:after {
-    border-top-color: #3080ff
+    border-top-color: #07557b
 }
 
 
@@ -14439,7 +14450,7 @@ textarea.textarea.is-button+.textarea-button button {
 .main-auth-wrapper .registration-form-wrapper .reset-form .back-link a:hover,
 .main-auth-wrapper .registration-form-wrapper .registration-form .forgot-link a:hover,
 .main-auth-wrapper .registration-form-wrapper .registration-form .back-link a:hover {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -14634,7 +14645,7 @@ textarea.textarea.is-button+.textarea-button button {
     left: 0;
     width: 0;
     height: 3px;
-    background: #3080ff;
+    background: #07557b;
     border-radius: 100px;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out
@@ -14786,7 +14797,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 236, src/assets/scss/pages/_search.scss */
 
 .search-input-wrapper .easy-autocomplete-container ul li.selected .nephos-search-template .entry-text span:nth-child(2) {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -14809,7 +14820,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 260, src/assets/scss/pages/_search.scss */
 
 .nephos-search-template:hover .icon-wrapper svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -15072,7 +15083,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .invoice-controls .invoice-top-actions a:hover {
     text-decoration: underline;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -15138,7 +15149,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 92, src/assets/scss/pages/_invoice.scss */
 
 .invoice .bottom-page .url {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -15394,7 +15405,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 .sub-table .total-value {
     font-weight: 600;
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -15760,14 +15771,14 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 268, src/assets/scss/pages/_elements.scss */
 
 .control.has-addon.has-icon .input:focus {
-    border-color: #3080ff
+    border-color: #07557b
 }
 
 
 /* line 271, src/assets/scss/pages/_elements.scss */
 
 .control.has-addon.has-icon .input:focus+svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -15907,7 +15918,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 382, src/assets/scss/pages/_elements.scss */
 
 .options li:hover {
-    background-color: #3080ff;
+    background-color: #07557b;
     color: #fff
 }
 
@@ -15944,7 +15955,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 414, src/assets/scss/pages/_elements.scss */
 
 .chosen-container-multi .chosen-choices li.search-choice {
-    background-color: #3080ff !important;
+    background-color: #07557b !important;
     margin: 10px 12px 10px -8px !important
 }
 
@@ -16131,7 +16142,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 540, src/assets/scss/pages/_elements.scss */
 
 .spinner-control .spinner-button:hover svg {
-    stroke: #3080ff
+    stroke: #07557b
 }
 
 
@@ -16159,7 +16170,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 574, src/assets/scss/pages/_elements.scss */
 
 .tabs-wrapper.underline-tabs .tabs ul li.is-active a {
-    color: #3080ff
+    color: #07557b
 }
 
 
@@ -17616,5 +17627,9 @@ textarea.textarea.is-button+.textarea-button button {
     opacity: .75
 }
 
+.header-logo {
+    margin: auto;
+    display: block;
+}
 
 /*# sourceMappingURL=../../../scss */

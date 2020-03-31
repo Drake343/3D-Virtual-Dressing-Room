@@ -550,7 +550,7 @@ TABLE OF CONTENTS
 .chosen-container .chosen-results li.highlighted {
     background-color: transparent;
     border-radius: 0;
-    color: #3080ff;
+    color: #07557b;
     transition: color 0.2s ease-in-out;
 }
 
@@ -932,19 +932,19 @@ border-top-color: #ccc;
 }
 
 .datepicker-panel > ul > li.highlighted {
-    color: #3080ff !important;
+    color: #07557b !important;
     border-radius: 50px;
 }
 
 .datepicker-panel > ul > li.highlighted:hover {
     opacity: 0.8;
-    color: #3080ff !important;
+    color: #07557b !important;
 }
 
 .datepicker-panel > ul > li.picked,
 .datepicker-panel > ul > li.picked:hover {
     color: #fff !important;
-    background-color: #3080ff;
+    background-color: #07557b;
     border-radius: 50px;
 }
 
