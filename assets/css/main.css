@@ -6920,7 +6920,7 @@ textarea.textarea.is-button+.textarea-button button {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(52, 66, 88, 0.5);
+    /* background: rgba(52, 66, 88, 0.5); */
     -webkit-transition: all .3s;
     transition: all .3s;
     z-index: 0
@@ -17632,5 +17632,9 @@ textarea.textarea.is-button+.textarea-button button {
 }
 #sidebar-mode{
     display: none;
+}
+.section{
+    background-image: url('../img/ui/background2.jpg');
+    background-size: cover;
 }
 /*# sourceMappingURL=../../../scss */
