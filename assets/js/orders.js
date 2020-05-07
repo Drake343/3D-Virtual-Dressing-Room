@@ -28,11 +28,11 @@ function getOrdersGrid() {
           modifierClass = 'is-success';
           icon = packageIcon;
         } else if (userData.orders[i].status === 'Shipping') {
-          primaryColor = '#0023ff';
+          primaryColor = '#07557b';
           modifierClass = 'is-primary';
           icon = truckIcon;
         } else if (userData.orders[i].status === 'Complete') {
-          primaryColor = '#0023ff';
+          primaryColor = '#07557b';
           modifierClass = 'is-primary';
           icon = checkIcon;
         } else if (userData.orders[i].status === 'Preparing') {
@@ -87,11 +87,11 @@ function getOrdersList() {
       for (var i = 0; i < userData.orders.length; i++) {
         //Apply status color
         if (userData.orders[i].status === 'Shipping') {
-          primaryColor = '#0023ff';
+          primaryColor = '#07557b';
           modifierClass = 'is-primary';
           icon = truckIcon;
         } else if (userData.orders[i].status === 'Complete') {
-          primaryColor = '#0023ff';
+          primaryColor = '#07557b';
           modifierClass = 'is-primary';
           icon = checkIcon;
         } else if (userData.orders[i].status === 'Preparing') {
