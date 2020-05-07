@@ -44,9 +44,10 @@ function getProductPage(productId) {
       for (var i = 0; i < products.length; i++) {
         if (products[i].id === productId) {
 
-          //Populate basic info
+          //Populate basic infoc
 
           $('.product-container').attr('data-product-id', products[i].id);
+          // $('.ontinue-button').attr('href',"kk" + products[i].id);
           $('#details-add-to-cart').attr('data-product-id', products[i].id);
           $('#product-category').html(products[i].category);
           $('.category-icon').addClass('is-hidden');

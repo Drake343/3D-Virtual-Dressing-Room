@@ -4487,22 +4487,22 @@ button[type=submit],
     width: 100%;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    max-height: 270px;
-    min-height: 270px
+    max-height: 300px;
+    min-height: 300px;
 }
 
 /* line 34, src/assets/scss/components/_cards.scss */
 
 .flat-card .image {
     text-align: center;
-    margin: 40px 0
+    /* margin: 40px 0 */
 }
 
 /* line 38, src/assets/scss/components/_cards.scss */
 
 .flat-card .image img {
-    max-width: 100px;
-    margin: 10px auto
+    max-width: 400px;
+    margin-bottom: 20px;
 }
 
 /* line 45, src/assets/scss/components/_cards.scss */
@@ -9822,16 +9822,16 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 69, src/assets/scss/pages/_product.scss */
 
 .product-panel .product-image {
-    padding: 25% 0;
+    /* padding: 25% 0; */
     text-align: center;
     position: relative
 }
 
 /* line 74, src/assets/scss/pages/_product.scss */
-
+/* 
 .product-panel .product-image img {
     max-width: 250px
-}
+} */
 
 /* line 80, src/assets/scss/pages/_product.scss */
 

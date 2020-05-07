@@ -11,115 +11,12 @@ var activeOption = 'legs';
 var loaded = false;
 
 const colors = [{
-  //   texture: '../assets/texture/fabric/1.jpg',
-  //   size: [2, 2, 2],
-  //   shininess: 60
-  // },
-
-  // {
-  //   texture: '../assets/texture/fabric/2.jpg',
-  //   size: [4, 4, 4],
-  //   shininess: 0
-  // },
-
-  // {
-  //   texture: '../assets/texture/fabric/3.jpg',
-  //   size: [8, 8, 8],
-  //   shininess: 10
-  // },
-
-  // {
-  //   texture: '../assets/texture/fabric/4.jpg',
-  //   size: [3, 3, 3],
-  //   shininess: 0
-  // },
-
-  // {
-  //   texture: '../assets/texture/fabric/5.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/6.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/7.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/8.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/9.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/10.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/11.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/12.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/13.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/14.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/15.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/16.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/17.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/18.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/19.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/fabric/20.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/jens/1.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
+  
+    texture: '../assets/texture/jens/1.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
     texture: '../assets/texture/jens/2.jpg',
     size: [6, 6, 6],
     shininess: 0
@@ -199,91 +96,91 @@ const colors = [{
     size: [6, 6, 6],
     shininess: 0
   },
-  // {
-  //   texture: '../assets/texture/dresses/4.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/dresses/5.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/dresses/6.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },{
-  //   texture: '../assets/texture/dresses/7.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },{
-  //   texture: '../assets/texture/dresses/8.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },{
-  //   texture: '../assets/texture/dresses/9.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },{
-  //   texture: '../assets/texture/dresses/11.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/dresses/14.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/dresses/15.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/dresses/16.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/shoes/1.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/shoes/2.jpeg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/shoes/3.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   texture: '../assets/texture/shoes/4.jpg',
-  //   size: [6, 6, 6],
-  //   shininess: 0
-  // },
-  // {
-  //   color: '131417'
-  // },
+  {
+    texture: '../assets/texture/dresses/4.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/dresses/5.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/dresses/6.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },{
+    texture: '../assets/texture/dresses/7.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },{
+    texture: '../assets/texture/dresses/8.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },{
+    texture: '../assets/texture/dresses/9.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },{
+    texture: '../assets/texture/dresses/11.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/dresses/14.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/dresses/15.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/dresses/16.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/shoes/1.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/shoes/2.jpeg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/shoes/3.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    texture: '../assets/texture/shoes/4.jpg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
+    color: '131417'
+  },
 
-  // {
-  //   color: '374047'
-  // },
+  {
+    color: '374047'
+  },
 
-  // {
-  //   color: '5f6e78'
-  // },
+  {
+    color: '5f6e78'
+  },
 
-  // {
-  //   color: '7f8a93'
-  // },
+  {
+    color: '7f8a93'
+  },
 
-  // {
-  //   color: '97a1a7'
-  // },
+  {
+    color: '97a1a7'
+  },
 
   {
     color: 'acb4b9'
@@ -301,17 +198,17 @@ const colors = [{
     color: 'A3AB84'
   },
 
-  // {
-  //   color: 'D6CCB1'
-  // },
+  {
+    color: 'D6CCB1'
+  },
 
-  // {
-  //   color: 'F8D5C4'
-  // },
+  {
+    color: 'F8D5C4'
+  },
 
-  // {
-  //   color: 'A3AE99'
-  // },
+  {
+    color: 'A3AE99'
+  },
 ];
 
 
