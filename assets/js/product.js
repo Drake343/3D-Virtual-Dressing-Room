@@ -26,6 +26,7 @@ function getRelatedProducts() {
             $this.find('img').attr('data-demo-src', products[i].pic);
             $this.find('.product-name').html(products[i].name);
             $this.find('.product-description').html(products[i].tagline);
+
           }
         }
       }
@@ -42,7 +43,9 @@ function getProductPage(productId) {
     success: function success(products) {
       for (var i = 0; i < products.length; i++) {
         if (products[i].id === productId) {
+
           //Populate basic info
+
           $('.product-container').attr('data-product-id', products[i].id);
           $('#details-add-to-cart').attr('data-product-id', products[i].id);
           $('#product-category').html(products[i].category);
@@ -50,6 +53,7 @@ function getProductPage(productId) {
           $('#product-details-name, #panel-product-name').html(products[i].name);
           $('#product-details-shortDesc').html(products[i].shortDesc);
           $('#product-details-sku, #panel-product-sku').html(products[i].sku);
+          $('#product-model').attr('href', products[i].link);
           $('#' + products[i].category.toLowerCase().split(' ').join('') + '-icon').removeClass('is-hidden');
 
           if (products[i].discounted === true) {
@@ -78,7 +82,7 @@ function getProductPage(productId) {
           $('#product-view .is-carousel').empty(); //Images
 
           for (var p = 0; p < products[i].images.length; p++) {
-            var template = "\n                            <div>\n                                <img src=\"http://via.placeholder.com/500x500/ffffff/999999\" data-demo-src=\"" + products[i].images[p].url + "\" data-action=\"zoom\" alt=\"\">\n                            </div>\n                        ";
+            var template = "\n                            <div>\n                                <img src=\"" + products[i].images[p].url + "\" data-demo-src=\"" + products[i].images[p].url + "\" data-action=\"zoom\" alt=\"\">\n                            </div>\n                        ";
             $.when($('#product-view .is-carousel').append(template)).done(function () {
               initProductCarousel();
               initProductSpinner();

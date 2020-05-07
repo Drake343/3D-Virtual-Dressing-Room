@@ -236,7 +236,7 @@ TABLE OF CONTENTS
 .chosen-container .chosen-results li.highlighted {
     background-color: transparent;
     border-radius: 0;
-    color: #07557b;
+    color: #0023ff;
     transition: color 0.2s ease-in-out;
 }
 

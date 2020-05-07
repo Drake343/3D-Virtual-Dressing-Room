@@ -1,9 +1,10 @@
 [
    {
       "id": 1,
-      "name": "Red Seat",
+      "link": "https://www.youtube.com/watch?v=Zl2SuItvGmM&list=PLtFbQRDJ11kEjXWZmwkOV-vfXmrEEsuEW&index=22&t=0s",
+      "name": "aaaaaaaaaaa",
       "category": "House",
-      "pic": "../img/products/Dress_1.png",
+      "pic": "https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0?e=2159024400&v=beta&t=C7KMOtnrJwGrMXmgIk2u1B8a7VRfgxMwXng9cdP9kZk",
       "discounted": false,
       "price": 45.00,
       "oldPrice": 45.00,
@@ -13,7 +14,7 @@
       "images": [
          {
             "id": 0,
-            "url": "../img/products/Dress_1.png"
+            "url": "https://media-exp1.licdn.com/dms/image/C560BAQHMnA03XDdf3w/company-logo_200_200/0?e=2159024400&v=beta&t=C7KMOtnrJwGrMXmgIk2u1B8a7VRfgxMwXng9cdP9kZk"
          }
       ],
       "vendor": "Brook's",
@@ -21,7 +22,7 @@
       "shippingTime": "2 weeks",
       "dimensions": "4x4x8",
       "weight": "24.23 Lbs",
-      "sku": "SKU-877",
+      "sku": "SKsdsdsdsds-877",
       "related": [
          {
             "id": "4"

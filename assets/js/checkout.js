@@ -330,7 +330,7 @@ $(document).ready(function () {
     $this.addClass('is-loading');
     convertCheckoutToOrder();
     setTimeout(function () {
-      window.location.href = '/orders-list.html';
+      window.location.href = '/orders.html';
     }, 1200);
   }); //Credit card
 

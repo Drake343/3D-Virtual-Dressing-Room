@@ -236,7 +236,7 @@ function fakeLogout() {
       toasts.service.success('', 'fas fa-check', 'Successfully logged out', 'bottomRight', 2000);
     }, 600);
     setTimeout(function () {
-      window.location.href = '/index.html';
+      window.location.href = '/home.html';
     }, 2600);
   });
 } //Accounts panel (Demo: do not use in production)
