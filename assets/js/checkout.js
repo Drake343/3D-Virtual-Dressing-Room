@@ -4,7 +4,7 @@ function getCheckoutSidebar() {
   var userData = JSON.parse(localStorage.getItem('user'));
   var checkout = JSON.parse(localStorage.getItem('checkout')); //Populate data
 
-  $('#checkout-avatar').attr('src', 'http://via.placeholder.com/250x250');
+  $('#checkout-avatar').attr('src', userData.photoUrl);
   $('#checkout-avatar').attr('data-demo-src', checkout.avatar);
   $('#checkout-username').html(checkout.username); //Shipping address
 

@@ -1,18 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="-49 141 512 512" style="enable-background:new -49 141 512 512;" xml:space="preserve">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
 	<g>
 		<g>
-			<path d="M376,491.3V302.7l-169-93.9L38,302.7v188.6l169,93.9L376,491.3z M64,476V318l143-79.4l143,79.5v158l-143,79.3L64,476z"/>
+			<rect x="144" width="32" height="32"/>
+			<polygon points="400,0 400,32 480,32 480,112 512,112 512,0 			"/>
+			<polygon points="480,480 400,480 400,512 512,512 512,400 480,400 			"/>
+			<rect x="144" y="480" width="32" height="32"/>
+			<rect x="208" width="32" height="32"/>
+			<rect x="208" y="480" width="32" height="32"/>
+			<rect x="272" width="32" height="32"/>
+			<rect x="272" y="480" width="32" height="32"/>
+			<rect x="336" width="32" height="32"/>
+			<rect y="336" width="32" height="32"/>
+			<rect y="272" width="32" height="32"/>
+			<rect y="208" width="32" height="32"/>
+			<rect y="144" width="32" height="32"/>
+			<rect x="480" y="336" width="32" height="32"/>
+			<rect x="480" y="272" width="32" height="32"/>
+			<rect x="480" y="208" width="32" height="32"/>
+			<rect x="480" y="144" width="32" height="32"/>
+			<rect x="336" y="480" width="32" height="32"/>
+			<polygon points="32,400 0,400 0,512 112,512 112,480 32,480 			"/>
+			<polygon points="0,112 32,112 32,32 112,32 112,0 0,0 			"/>
+			<rect x="352" y="352" width="32" height="32"/>
+			<rect x="242.24" y="352" width="27.424" height="32"/>
+			<rect x="297.136" y="352" width="27.424" height="32"/>
+			<rect x="187.424" y="352" width="27.424" height="32"/>
+			<rect x="128" y="352" width="32" height="32"/>
+			<rect x="128" y="242.24" width="32" height="27.424"/>
+			<rect x="128" y="187.424" width="32" height="27.424"/>
+			<rect x="128" y="297.136" width="32" height="27.424"/>
+			<rect x="128" y="128" width="32" height="32"/>
+			<rect x="297.136" y="128" width="27.424" height="32"/>
+			<rect x="242.24" y="128" width="27.424" height="32"/>
+			<rect x="187.424" y="128" width="27.424" height="32"/>
+			<rect x="352" y="128" width="32" height="32"/>
+			<rect x="352" y="242.24" width="32" height="27.424"/>
+			<rect x="352" y="187.424" width="32" height="27.424"/>
+			<rect x="352" y="297.136" width="32" height="27.424"/>
 		</g>
 	</g>
-	<g>
-		<g>
-			<path d="M298,397c0-50.2-40.8-91-91-91s-91,40.8-91,91s40.8,91,91,91S298,447.2,298,397z M142,397c0-35.9,29.2-65,65-65
-				s65,29.2,65,65s-29.2,65-65,65S142,432.9,142,397z"/>
-		</g>
-	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
 </g>
 </svg>

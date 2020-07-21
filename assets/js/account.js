@@ -11,7 +11,7 @@ function getAccountInfo() {
   else {
       //Photo
       $('.profile-image').empty();
-      var avatar = "\n        <img src=\"http://via.placeholder.com/250x250\" data-demo-src=\"" + userData.photoUrl + "\" alt=\"\">\n    ";
+      var avatar = "\n        <img src=\"" + userData.photoUrl + "\" data-demo-src=\"" + userData.photoUrl + "\" alt=\"\">\n    ";
       $('.profile-image').append(avatar); //User Info
 
       $('#account-first-name').html(userData.firstName);
@@ -58,7 +58,7 @@ function getEditAccountInfo() {
   else {
       //Photo
       $('.avatar-wrapper .profile-pic').remove();
-      var avatar = "\n        <img class=\"profile-pic\" src=\"http://via.placeholder.com/250x250\" data-demo-src=\"" + userData.photoUrl + "\" alt=\"\">\n    ";
+      var avatar = "\n         <img src=\"" + userData.photoUrl + "\"  data-demo-src=\"" + userData.photoUrl + "\" alt=\"\">\n    ";
       $('.avatar-wrapper').prepend(avatar); //User Info
 
       $('#edit-first-name').val(userData.firstName);

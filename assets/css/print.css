@@ -1,0 +1,5 @@
+.main-sidebar,
+.invoice-controls,
+.menu-fab {
+    display: none;
+}

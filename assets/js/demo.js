@@ -61,7 +61,7 @@ $(document).ready(function () {
 
 
   var typed = new Typed('.typed-hero', {
-    strings: ["Hello, Iam Nephos ^2000", "Premium UI Kit ^2000", "For Ecommerce ^2000"],
+    strings: ["Hey everybody!", "in Real Time 3D Custom Made Fashion Shop"],
     typeSpeed: 45,
     loop: true,
     loopCount: Infinity,

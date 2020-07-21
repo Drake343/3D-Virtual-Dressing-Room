@@ -1,8 +1,8 @@
-/*! core.scss | Nephos | CSS Ninja */
+/*! core.scss | TopShop */
 
-/*! _theme-default.scss | Nephos | CSS Ninja */
+/*! _theme-default.scss | TopShop */
 
-/*! _base.scss | Nephos | CSS Ninja */
+/*! _base.scss | TopShop  */
 
 /* line 18, src/assets/scss/base/_base.scss */
 
@@ -16,11 +16,11 @@ a {
     color: #07557b
 }
 
-/*! _colors.scss | Nephos | CSS Ninja */
+/*! _colors.scss | TopShop */
 
-/*! _fonts.scss | Nephos | CSS Ninja */
+/*! _fonts.scss | TopShop */
 
-/*! _helpers.scss | Nephos | CSS Ninja */
+/*! _helpers.scss | TopShop */
 
 /* line 21, src/assets/scss/base/_helpers.scss */
 
@@ -123,7 +123,7 @@ a {
     cursor: default !important
 }
 
-/*! _utils.scss | Nephos | CSS Ninja */
+/*! _utils.scss | TopShop */
 
 /* line 19, src/assets/scss/base/_utils.scss */
 
@@ -176,7 +176,7 @@ a {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    height: 355px;
+    height: 420px;
     width: 320px;
     border: 1px solid #ededed;
     border-radius: 6px;
@@ -325,7 +325,7 @@ a {
     font-size: .65rem
 }
 
-/*! _animations.scss | Nephos | CSS Ninja */
+/*! _animations.scss | TopShop */
 
 @-webkit-keyframes fadeIn {
     from {}
@@ -798,7 +798,7 @@ a {
     animation: 0.3s linear 0.9s both fadeIn
 }
 
-/*! _layout.scss | Nephos | CSS Ninja */
+/*! _layout.scss | TopShop */
 
 /* line 19, src/assets/scss/layout/_layout.scss */
 
@@ -1034,7 +1034,7 @@ body {
 /* line 198, src/assets/scss/layout/_layout.scss */
 
 .shop-wrapper .hero-caption .button {
-    margin-top: 20px;
+    margin-top: 150px;
     font-size: 0.8rem !important
 }
 
@@ -1079,7 +1079,7 @@ body {
     margin: 0 auto
 }
 
-/*! _navbar.scss | Nephos | CSS Ninja */
+/*! _navbar.scss | TopShop */
 
 /* line 19, src/assets/scss/layout/_navbar.scss */
 
@@ -1286,7 +1286,7 @@ body {
     border-color: #fff !important
 }
 
-/*! _sidebar.scss | Nephos | CSS Ninja */
+/*! _sidebar.scss | TopShop */
 
 /* line 18, src/assets/scss/layout/_sidebar.scss */
 
@@ -1514,7 +1514,7 @@ body {
     width: 1.5rem
 }
 
-/*! _filters.scss | Nephos | CSS Ninja */
+/*! _filters.scss | TopShop */
 
 /* line 23, src/assets/scss/layout/_filters.scss */
 
@@ -1651,7 +1651,7 @@ body {
     margin: 5px 0
 }
 
-/*! _pageloader.scss | Nephos | CSS Ninja */
+/*! _pageloader.scss | TopShop */
 
 /* line 20, src/assets/scss/components/_pageloader.scss */
 
@@ -1814,7 +1814,7 @@ body {
     left: 0 !important
 }
 
-/*! _buttons.scss | Nephos | CSS Ninja */
+/*! _buttons.scss | TopShop */
 
 /* line 21, src/assets/scss/components/_buttons.scss */
 
@@ -2222,7 +2222,7 @@ button[type=submit],
     background-color: #07557b
 }
 
-/*! _modals.scss | Nephos | CSS Ninja */
+/*! _modals.scss | TopShop */
 
 /* line 24, src/assets/scss/components/_modals.scss */
 
@@ -3239,7 +3239,7 @@ button[type=submit],
     margin: 0 auto
 }
 
-/*! _quickview.scss | Nephos | CSS Ninja */
+/*! _quickview.scss | TopShop */
 
 /* line 24, src/assets/scss/components/_quickview.scss */
 
@@ -4472,7 +4472,7 @@ button[type=submit],
     transition: all .3s
 }
 
-/*! _cards.scss | Nephos | CSS Ninja */
+/*! _cards.scss | TopShop */
 
 /* line 20, src/assets/scss/components/_cards.scss */
 
@@ -4528,7 +4528,6 @@ button[type=submit],
 
 .flat-card .product-info .product-name {
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
     font-size: .8rem;
     font-weight: 500
 }
@@ -4905,7 +4904,7 @@ button[type=submit],
     display: inline-block !important
 }
 
-/*! _utils.scss | Nephos | CSS Ninja */
+/*! _utils.scss | TopShop */
 
 @media (min-width: 768px) {
     /* line 22, src/assets/scss/components/_messages.scss */
@@ -5106,7 +5105,7 @@ button[type=submit],
     width: 26px
 }
 
-/*! _tabs.scss | Nephos | CSS Ninja */
+/*! _tabs.scss | TopShop */
 
 /* line 19, src/assets/scss/components/_tabs.scss */
 
@@ -5146,7 +5145,7 @@ button[type=submit],
     display: block
 }
 
-/*! _switch.scss | Nephos | CSS Ninja */
+/*! _switch.scss | TopShop */
 
 /* line 18, src/assets/scss/components/_switch.scss */
 
@@ -5249,7 +5248,7 @@ button[type=submit],
     transform: translate3d(22px, 2px, 0)
 }
 
-/*! _alert.scss | Nephos | CSS Ninja */
+/*! _alert.scss | TopShop */
 
 /* line 18, src/assets/scss/components/_alert.scss */
 
@@ -5380,7 +5379,7 @@ button[type=submit],
     outline: none !important
 }
 
-/*! _checkboxes.scss | Nephos | CSS Ninja */
+/*! _checkboxes.scss | TopShop */
 
 /* line 18, src/assets/scss/components/_checkboxes.scss */
 
@@ -5505,7 +5504,7 @@ button[type=submit],
     color: #999
 }
 
-/*! _forms.scss | Nephos | CSS Ninja */
+/*! _forms.scss | TopShop */
 
 /* line 20, src/assets/scss/components/_forms.scss */
 
@@ -6161,7 +6160,7 @@ textarea.textarea.is-button+.textarea-button button {
     }
 }
 
-/*! _categories.scss | Nephos | CSS Ninja */
+/*! _categories.scss | TopShop */
 
 /* line 20, src/assets/scss/pages/_categories.scss */
 
@@ -6210,7 +6209,7 @@ textarea.textarea.is-button+.textarea-button button {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(52, 66, 88, 0.5);
+    background: rgba(52, 66, 88, 0.1);
     -webkit-transition: all .3s;
     transition: all .3s;
     z-index: 0
@@ -6780,7 +6779,7 @@ textarea.textarea.is-button+.textarea-button button {
     vertical-align: top
 }
 
-/*! _account.scss | Nephos | CSS Ninja */
+/*! _account.scss | TopShop */
 
 /* line 26, src/assets/scss/pages/_account.scss */
 
@@ -8140,7 +8139,7 @@ textarea.textarea.is-button+.textarea-button button {
     min-width: 170px !important
 }
 
-/*! _cart.scss | Nephos | CSS Ninja */
+/*! _cart.scss | TopShop */
 
 /* line 20, src/assets/scss/pages/_cart.scss */
 
@@ -8527,7 +8526,7 @@ textarea.textarea.is-button+.textarea-button button {
     margin-top: 10px
 }
 
-/*! _orders.scss | Nephos | CSS Ninja */
+/*! _orders.scss | TopShop */
 
 /* line 21, src/assets/scss/pages/_orders.scss */
 
@@ -9752,7 +9751,7 @@ textarea.textarea.is-button+.textarea-button button {
     }
 }
 
-/*! _product.scss | Nephos | CSS Ninja */
+/*! _product.scss | TopShop */
 
 /* line 22, src/assets/scss/pages/_product.scss */
 
@@ -9791,7 +9790,7 @@ textarea.textarea.is-button+.textarea-button button {
 /* line 44, src/assets/scss/pages/_product.scss */
 
 .product-panel .panel-header .likes {
-    margin: 0 30px
+    margin: auto
 }
 
 /* line 47, src/assets/scss/pages/_product.scss */
@@ -10273,7 +10272,6 @@ textarea.textarea.is-button+.textarea-button button {
 
 .product-info-panel .inner-panel .panel-body .product-name {
     font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
     font-size: 2.2rem;
     font-weight: 500;
     color: #4a4a4a
@@ -10547,7 +10545,7 @@ textarea.textarea.is-button+.textarea-button button {
     outline: none !important
 }
 
-/*! _checkout.scss | Nephos | CSS Ninja */
+/*! _checkout.scss | TopShop */
 
 /* line 27, src/assets/scss/pages/_checkout.scss */
 
@@ -12619,7 +12617,7 @@ textarea.textarea.is-button+.textarea-button button {
     }
 }
 
-/*! _auth.scss | Nephos | CSS Ninja */
+/*! _auth.scss | TopShop */
 
 /* line 19, src/assets/scss/pages/_auth.scss */
 
@@ -13001,7 +12999,7 @@ textarea.textarea.is-button+.textarea-button button {
     color: #07557b
 }
 
-/*! _search.scss | Nephos | CSS Ninja */
+/*! _search.scss | TopShop */
 
 /* line 21, src/assets/scss/pages/_search.scss */
 
@@ -13518,7 +13516,7 @@ textarea.textarea.is-button+.textarea-button button {
     border: 1px solid #e3e3e3
 }
 
-/*! _invoice.scss | Nephos | CSS Ninja */
+/*! _invoice.scss | TopShop */
 
 /* line 21, src/assets/scss/pages/_invoice.scss */
 
@@ -13866,7 +13864,7 @@ textarea.textarea.is-button+.textarea-button button {
     font-size: 80%
 }
 
-/*! _elements.scss | Nephos | CSS Ninja */
+/*! _elements.scss | TopShop */
 
 /* line 25, src/assets/scss/pages/_elements.scss */
 
@@ -14546,7 +14544,7 @@ textarea.textarea.is-button+.textarea-button button {
     font-size: .9rem
 }
 
-/*! _responsive.scss | Nephos | CSS Ninja */
+/*! _responsive.scss | TopShop */
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
     /* line 24, src/assets/scss/layout/_responsive.scss */
@@ -15775,4 +15773,36 @@ textarea.textarea.is-button+.textarea-button button {
     opacity: .75
 }
 
+/* Team Home Page  */
+.team-member {
+    width: 30%;
+    float: right;
+    margin: 9px;
+    text-align: center;
+}
+
+.video-wrap h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.video-wrap .row {
+    clear: both;
+}
+
+.team-member img {
+    height: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.team-member .member-name {
+    text-align: center;
+    font-weight: bold;
+}
+
+.team-member .mamber-role {
+    text-align: center;
+}
 /*# sourceMappingURL=../../../scss */

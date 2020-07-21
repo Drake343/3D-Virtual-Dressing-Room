@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title> Nephos :: Modern Bulma Ecommerce App and Dashboard</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+<title> TOPSHOP| Modern 3D Clothes Store</title>    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 
     <!--Core CSS -->
     <link rel="stylesheet" href="assets/css/app.css">
@@ -29,7 +28,7 @@
     <!-- Main Sidebar-->
     <div class="main-sidebar">
         <div class="sidebar-brand">
-            <a href="home.html"><img src="assets/img/logo/top_black.png" alt=""></a>
+            <a href="index.html"><img src="assets/img/logo/top_black.png" alt=""></a>
         </div>
         <div class="sidebar-inner">
             <ul class="icon-menu">
@@ -68,11 +67,10 @@
         </div>
     </div>
     <!-- Shop quickview -->
-    <div class="shop-quickview has-background-image" data-background="http://via.placeholder.com/1280x853" data-demo-background="assets/img/bg/sidebar.jpeg">
+    <div class="shop-quickview has-background-image" data-background="" data-demo-background="assets/img/bg/sidebar.jpeg">
         <div class="inner">
             <!-- Header -->
             <div class="quickview-header">
-                <h2>Nephos</h2>
                 <span id="close-shop-sidebar"><i data-feather="x"></i></span>
             </div>
             <!-- Shop menu -->
@@ -83,12 +81,7 @@
                         <i data-feather="grid"></i>
                     </a>
                 </li>
-                <li>
-                    <a href="products.html">
-                        <span>All Products</span>
-                        <i data-feather="box"></i>
-                    </a>
-                </li>
+               
                 <li>
                     <a href="account.html">
                         <span>My Account</span>
@@ -314,24 +307,6 @@
                                     <!--Payment Method-->
                                     <div class="column is-6">
                                         <div class="method-card">
-                                            <input id="stripe" type="radio" name="payment_methods" data-value-id="stripe">
-                                            <div class="method-card-inner">
-                                                <div class="icon-container">
-                                                    <img src="assets/img/icons/checkout/stripe.svg" alt="">
-                                                    <div class="indicator gelatine">
-                                                        <i data-feather="check"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="meta">
-                                                    <h3>Stripe</h3>
-                                                    <p>If you want the traditional good old school method</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Payment Method-->
-                                    <div class="column is-6">
-                                        <div class="method-card">
                                             <input id="visa" type="radio" name="payment_methods" data-value-id="credit-card">
                                             <div class="method-card-inner">
                                                 <div class="icon-container">
@@ -341,25 +316,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="meta">
-                                                    <h3>Visa</h3>
-                                                    <p>If you want to ship your items worldwide</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--Payment Method-->
-                                    <div class="column is-6">
-                                        <div class="method-card">
-                                            <input id="mastercard" type="radio" name="payment_methods" data-value-id="credit-card">
-                                            <div class="method-card-inner">
-                                                <div class="icon-container">
-                                                    <img src="assets/img/icons/checkout/mastercard.svg" alt="">
-                                                    <div class="indicator gelatine">
-                                                        <i data-feather="check"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="meta">
-                                                    <h3>Mastercard</h3>
+                                                    <h3>Credit Card</h3>
                                                     <p>If you want to ship your items worldwide</p>
                                                 </div>
                                             </div>
@@ -420,7 +377,7 @@
                                         <div class="field">
                                             <label>Paypal Email</label>
                                             <div class="control has-icon is-bigger">
-                                                <input type="text" class="input is-default" value="elie@mail.com">
+                                                <input type="text" class="input is-default" required placeholder="Enter Your Email" >
                                                 <div class="form-icon">
                                                     <i data-feather="mail"></i>
                                                 </div>
@@ -429,16 +386,7 @@
                                         <div class="field">
                                             <label>Paypal Password</label>
                                             <div class="control has-icon is-bigger">
-                                                <input type="password" class="input is-default" value="testpassword">
-                                                <div class="form-icon">
-                                                    <i data-feather="lock"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="field">
-                                            <label>Confirm Password</label>
-                                            <div class="control has-icon is-bigger">
-                                                <input type="password" class="input is-default" value="testpassword">
+                                                <input type="password" class="input is-default" required placeholder="Enter Your Password">
                                                 <div class="form-icon">
                                                     <i data-feather="lock"></i>
                                                 </div>
@@ -453,7 +401,7 @@
                                                 <h3>Disclaimer</h3>
                                             </div>
 
-                                            <p>By clicking on "Confirm & Pay", I agree to the Nephos <a>Terms Of Servive</a>, and to the Nephos <a>Shopping Policy</a>.</p>
+                                            <p>By clicking on "Confirm & Pay", I agree to the TopShop <a>Terms Of Servive</a>, and to the TopShop <a>Shopping Policy</a>.</p>
                                             <p>By doing so, I also agree to the Paypal <a>Terms Of Servive</a></a>.</p>
 
                                             <div class="agree-block">
@@ -491,7 +439,7 @@
                                         <div class="field">
                                             <label>Stripe Email</label>
                                             <div class="control has-icon is-bigger">
-                                                <input type="text" class="input is-default" value="elie@mail.com">
+                                                <input type="text" class="input is-default" placeholder="Enter Your Email">
                                                 <div class="form-icon">
                                                     <i data-feather="mail"></i>
                                                 </div>
@@ -500,16 +448,7 @@
                                         <div class="field">
                                             <label>Stripe Password</label>
                                             <div class="control has-icon is-bigger">
-                                                <input type="password" class="input is-default" value="testpassword">
-                                                <div class="form-icon">
-                                                    <i data-feather="lock"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="field">
-                                            <label>Confirm Password</label>
-                                            <div class="control has-icon is-bigger">
-                                                <input type="password" class="input is-default" value="testpassword">
+                                                <input type="password" class="input is-default" placeholder="Enter Your Password">
                                                 <div class="form-icon">
                                                     <i data-feather="lock"></i>
                                                 </div>
@@ -524,7 +463,7 @@
                                                 <h3>Disclaimer</h3>
                                             </div>
 
-                                            <p>By clicking on "Confirm & Pay", I agree to the Nephos <a>Terms Of Servive</a>, and to the Nephos
+                                            <p>By clicking on "Confirm & Pay", I agree to the TopShop <a>Terms Of Servive</a>, and to the TopShop
                                                 <a>Shopping Policy</a>.</p>
                                             <p>By doing so, I also agree to the Stripe <a>Terms Of Servive</a></a>.</p>
 
@@ -588,7 +527,7 @@
                                                     </div>
                                                     <div class="field">
                                                         <div class="control has-icon">
-                                                            <input class="input is-default" placeholder="Full name" type="text" name="name">
+                                                            <input class="input is-default" placeholder="Full name" type="text" name="name" maxlength="18">
                                                             <div class="form-icon">
                                                                 <i data-feather="user"></i>
                                                             </div>
@@ -596,7 +535,7 @@
                                                     </div>
                                                     <div class="field">
                                                         <div class="control has-icon">
-                                                            <input class="input is-default" placeholder="CVC" type="text" name="cvc">
+                                                            <input class="input is-default" placeholder="CVC" type="text" name="cvc" maxlength="3">
                                                             <div class="form-icon">
                                                                 <i data-feather="lock"></i>
                                                             </div>
@@ -608,7 +547,7 @@
                                                             <h3>Disclaimer</h3>
                                                         </div>
 
-                                                        <p>By clicking on "Confirm & Pay", I agree to the Nephos <a>Terms Of Servive</a>, and to the Nephos
+                                                        <p>By clicking on "Confirm & Pay", I agree to the TopShop <a>Terms Of Servive</a>, and to the TopShop
                                                             <a>Shopping Policy</a>.</p>
                                                         <p>By doing so, I also agree to the Visa <a>Terms Of Servive</a></a>.</p>
 
@@ -670,9 +609,9 @@
                                                 <h3>Disclaimer</h3>
                                             </div>
 
-                                            <p>By clicking on "Confirm & Pay", I agree to the Nephos <a>Terms Of Servive</a>, and to the Nephos
+                                            <p>By clicking on "Confirm & Pay", I agree to the TopShop <a>Terms Of Servive</a>, and to the TopShop
                                                 <a>Shopping Policy</a>.</p>
-                                            <p>By doing so, I also agree to the Nephos <a>Cash On Delivery Policy</a></a>.</p>
+                                            <p>By doing so, I also agree to the TopShop <a>Cash On Delivery Policy</a></a>.</p>
 
                                             <div class="agree-block">
                                                 <!-- Animated checkbox-->
@@ -728,9 +667,9 @@
                                                 <h3>Disclaimer</h3>
                                             </div>
 
-                                            <p>By clicking on "Confirm & Pay", I agree to the Nephos <a>Terms Of Servive</a>, and to the Nephos
+                                            <p>By clicking on "Confirm & Pay", I agree to the TopShop <a>Terms Of Servive</a>, and to the TopShop
                                                 <a>Shopping Policy</a>.</p>
-                                            <p>By doing so, I also agree to the Nephos <a>Bank Transfer Policy</a></a>.</p>
+                                            <p>By doing so, I also agree to the TopShop <a>Bank Transfer Policy</a></a>.</p>
 
                                             <div class="agree-block">
                                                 <!-- Animated checkbox-->
@@ -821,9 +760,9 @@
     <script src="assets/js/_data-addresses.js"></script>
     <script src="assets/js/_data-orders.js"></script>
 
-    <!-- Nephos js -->
+    <!-- TopShop  js -->
     <script src="assets/js/functions.js"></script>
-    <script src="assets/js/nephos.js"></script>
+    <script src="assets/js/topshop.js"></script>
     <script src="assets/js/authentication.js"></script>
     <script src="assets/js/cart.js"></script>
 

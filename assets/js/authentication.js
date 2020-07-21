@@ -8,50 +8,62 @@ var user = {
   photoUrl: 'assets/img/avatars/altvatar.png'
 }; //Fake account objects
 
-var elie = {
+var ahmed = {
   isLoggedIn: true,
-  firstName: 'Elie',
-  lastName: 'Daniels',
-  email: 'elie@mail.com',
-  phone: null,
-  photoUrl: 'http://via.placeholder.com/250x250',
+  firstName: 'Ahmed',
+  lastName: 'Osama',
+  email: 'Ahmedosama@gmail.com',
+  phone: "01005590109",
+  photoUrl: 'assets/img/team/ahmed.jpg',
   wishlists: myWishlists,
   orders: myOrders,
   addresses: elieAddresses
 };
-var john = {
+var amora = {
   isLoggedIn: true,
-  firstName: 'John',
-  lastName: 'Cambell',
-  email: 'john@mail.com',
+  firstName: 'Amora',
+  lastName: 'Goda',
+  email: 'Amoragoda@gmail.com',
   phone: null,
-  photoUrl: 'http://via.placeholder.com/250x250',
+  photoUrl: 'assets/img/team/amora.png',
   wishlists: myWishlists,
   orders: myOrders,
   addresses: johnAddresses
 };
-var samantha = {
+var basem = {
   isLoggedIn: true,
-  firstName: 'Samantha',
-  lastName: 'Rogers',
-  email: 'samantha@mail.com',
-  phone: null,
-  photoUrl: 'http://via.placeholder.com/250x250',
+  firstName: 'Basem',
+  lastName: 'Ghanem',
+  email: 'Basemghanem@gmail.com',
+  phone: "01025290097",
+  photoUrl: 'assets/img/team/basem.jpeg',
   wishlists: myWishlists,
   orders: myOrders,
   addresses: samanthaAddresses
 };
-var arthur = {
+var noura = {
   isLoggedIn: true,
-  firstName: 'Arthur',
-  lastName: 'Baxter',
-  email: 'arthur@mail.com',
+  firstName: 'Noura',
+  lastName: 'Gomaa',
+  email: 'Nouragomaa@gmail.com',
   phone: null,
-  photoUrl: 'http://via.placeholder.com/250x250',
+  photoUrl: 'assets/img/team/noura.png',
   wishlists: myWishlists,
   orders: myOrders,
   addresses: arthurAddresses
-}; //If no logged in user is found, set the default guest user object
+}; 
+var omar = {
+  isLoggedIn: true,
+  firstName: 'Omar',
+  lastName: 'Fathy',
+  email: 'OmarMFathy219@gmail.com',
+  phone: "01026734847",
+  photoUrl: 'assets/img/team/omar.jpg',
+  wishlists: myWishlists,
+  orders: myOrders,
+  addresses: arthurAddresses
+};
+//If no logged in user is found, set the default guest user object
 
 if (JSON.parse(localStorage.getItem('user')) === null) {
   localStorage.setItem('user', JSON.stringify(user));
@@ -162,10 +174,10 @@ function fakeLogin() {
     $this.addClass('is-loading');
     $('.small-auth-loader').addClass('is-active');
 
-    if (emailValue === 'elie@mail.com' && passwordValue === 'testpassword') {
+    if (emailValue === 'Ahmedosama@gmail.com' && passwordValue === 'Ahmed123') {
       setTimeout(function () {
         $this.removeClass('is-loading');
-        var data = elie;
+        var data = ahmed;
         localStorage.setItem('user', JSON.stringify(data));
         toasts.service.success('', 'fas fa-check', 'Successfully logged in', 'bottomRight', 2000);
       }, 1200);
@@ -176,10 +188,10 @@ function fakeLogin() {
           window.location.href = '/shop.html';
         }
       }, 3200);
-    } else if (emailValue === 'john@mail.com' && passwordValue === 'testpassword') {
+    } else if (emailValue === 'Amoragoda@gmail.com' && passwordValue === 'Amora123') {
       setTimeout(function () {
         $this.removeClass('is-loading');
-        var data = john;
+        var data = amora;
         localStorage.setItem('user', JSON.stringify(data));
         toasts.service.success('', 'fas fa-check', 'Successfully logged in', 'bottomRight', 2000);
       }, 1200);
@@ -190,10 +202,10 @@ function fakeLogin() {
           window.location.href = '/shop.html';
         }
       }, 3200);
-    } else if (emailValue === 'samantha@mail.com' && passwordValue === 'testpassword') {
+    } else if (emailValue === 'Basemghanem@gmail.com' && passwordValue === 'Basem123') {
       setTimeout(function () {
         $this.removeClass('is-loading');
-        var data = samantha;
+        var data = basem;
         localStorage.setItem('user', JSON.stringify(data));
         toasts.service.success('', 'fas fa-check', 'Successfully logged in', 'bottomRight', 2000);
       }, 1200);
@@ -204,10 +216,24 @@ function fakeLogin() {
           window.location.href = '/shop.html';
         }
       }, 3200);
-    } else if (emailValue === 'arthur@mail.com' && passwordValue === 'testpassword') {
+    } else if (emailValue === 'OmarMFathy219@gmail.com' && passwordValue === 'Omar123') {
       setTimeout(function () {
         $this.removeClass('is-loading');
-        var data = arthur;
+        var data = omar;
+        localStorage.setItem('user', JSON.stringify(data));
+        toasts.service.success('', 'fas fa-check', 'Successfully logged in', 'bottomRight', 2000);
+      }, 1200);
+      setTimeout(function () {
+        if (redirectOrigin === 'checkout') {
+          window.location.href = '/checkout-step1.html';
+        } else {
+          window.location.href = '/shop.html';
+        }
+      }, 3200);
+    } else if (emailValue === 'Nouragomaa@gmail.com' && passwordValue === 'Noura123') {
+      setTimeout(function () {
+        $this.removeClass('is-loading');
+        var data = noura;
         localStorage.setItem('user', JSON.stringify(data));
         toasts.service.success('', 'fas fa-check', 'Successfully logged in', 'bottomRight', 2000);
       }, 1200);
