@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>QuickSize™</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/quick-size.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section id="start" class="section is-medium">
+        <div class="container">
+
+            <div class="title-wrapper has-text-centered">
+                <div class="title is-3 is-spaced">
+                    What's my size?
+                </div>
+                <div class="subtitle is-5 is-muted">Finding the right clothing size has never been easier.</div>
+                <div class="subtitle is-5 is-muted">Use <span class="quick">Quick Size</span> Type in 5 values to instantly receive your size.
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="parent">
+            <!-- Form get size -->
+            <form name="sizeForm" class="size-calculator" action="quick-size-result.html">
+                <!-- Type -->
+                <div class="details type">
+                    <div class="title">
+                        <p>Type:</p>
+                    </div>
+                    <label class="radio_btn">
+                        <input type="radio" name="type" id="male" value="T-shirts" required />
+                        <span>T-shirts</span>
+                    </label>
+                    <label class="radio_btn">
+                        <input type="radio" name="type" id="Female" value="Pants" required />
+                        <span>Pants</span>
+                    </label>
+                </div>
+
+                <div class="details">
+                    <div class="title">
+                        <p>Height</p>
+                    </div>
+                    <input type="number" name="Height" id="btn-height" min="150" max="210" required />
+                    <span>cm <i class="show-toolTip height fa fa-question-circle"></i></span>
+                </div>
+
+                <div class="details">
+                    <div class="title">
+                        <p>Bust</p>
+                    </div>
+                    <input class="btn" type="number" name="Bust" id="btn-bust" min="87" max="114" required />
+                    <span>cm <i class="show-toolTip bust fa fa-question-circle"></i></span>
+                </div>
+
+                <div class="details">
+                    <div class="title">
+                        <p>Waist</p>
+                    </div>
+                    <input type="number" name="Waist" id="btn-waist" min="75" max="103" required />
+                    <span>cm <i class="show-toolTip waist fa fa-question-circle"></i></span>
+                </div>
+
+                <div class="details">
+                    <div class="title">
+                        <p>Hips</p>
+                    </div>
+                    <input type="number" name="Hips" id="btn-hips" min="86" max="113" required />
+                    <span>cm <i class="show-toolTip hips fa fa-question-circle"></i></span>
+                </div>
+
+                <div class="details">
+                    <div class="title">
+                        <p>Inseam</p>
+                    </div>
+                    <input type="number" name="Inseam" id="btn-inseam" min="81" max="83" required />
+                    <span>cm <i class="show-toolTip inseam fa fa-question-circle"></i></span>
+                </div>
+
+                <div class="details">
+                    <button class="submit button big-button primary-button upper-button rounded raised">Find My Size</button>
+                </div>
+            </form>
+
+            <!-- human img -->
+            <div class="human-img">
+                <p class="height">Height</p>
+                <p class="bust">Bust</p>
+                <p class="waist">Waist</p>
+                <p class="hips">Hips</p>
+                <p class="inseam">Inseam</p>
+            </div>
+
+            <!-- Pop UP -->
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p></p>
+                    <p></p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <div class="nephos">
+                    <img class="logo" src="assets/img/logo/top_white.png">
+                    <span class="logo-text">TOPSHOP</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Concatenated plugins -->
+    <script src="assets/js/size.js"></script>
+</body>
+
+</html>

@@ -20,8 +20,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "2 weeks",
-      "dimensions": "",
-      "weight": "",
       "sku": "SK-877",
       "related": [
          {
@@ -56,8 +54,6 @@
       "vendor": "Globe Furniture",
       "inventoryQty": 250,
       "shippingTime": "3 weeks",
-      "dimensions": "4x4x8",
-      "weight": "80.59 Lbs",
       "sku": "SKU-1059",
       "related": [
          {
@@ -92,8 +88,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "1 week",
-      "dimensions": "4x4x8",
-      "weight": "10.23 Lbs",
       "sku": "SKU-423",
       "related": [
          {
@@ -128,8 +122,6 @@
       "vendor": "Globe Furniture",
       "inventoryQty": 250,
       "shippingTime": "2 weeks",
-      "dimensions": "12x12x59",
-      "weight": "126.59 Lbs",
       "sku": "SKU-05595",
       "related": [
          {
@@ -164,8 +156,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "1 week",
-      "dimensions": "4x4x8",
-      "weight": "10.23 Lbs",
       "sku": "SKU-112",
       "related": [
          {
@@ -200,8 +190,6 @@
       "vendor": "Bobby Living",
       "inventoryQty": 250,
       "shippingTime": "3 weeks",
-      "dimensions": "4x4x8",
-      "weight": "95.23 Lbs",
       "sku": "SKU-4564",
       "related": [
          {
@@ -236,8 +224,6 @@
       "vendor": "Bobby Living",
       "inventoryQty": 250,
       "shippingTime": "3 weeks",
-      "dimensions": "4x4x8",
-      "weight": "154.49 Lbs",
       "sku": "SKU-59984",
       "related": [
          {
@@ -272,8 +258,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "2 weeks",
-      "dimensions": "4x4x8",
-      "weight": "24.23 Lbs",
       "sku": "SKU-49488",
       "related": [
          {
@@ -308,8 +292,6 @@
       "vendor": "Furnimod",
       "inventoryQty": 250,
       "shippingTime": "5 days",
-      "dimensions": "4x4x8",
-      "weight": "42.23 Lbs",
       "sku": "SKU-78564",
       "related": [
          {
@@ -344,8 +326,6 @@
       "vendor": "Furnimod",
       "inventoryQty": 250,
       "shippingTime": "5 days",
-      "dimensions": "4x4x8",
-      "weight": "36.23 Lbs",
       "sku": "SKU-52684",
       "related": [
          {
@@ -380,8 +360,6 @@
       "vendor": "Furnimod",
       "inventoryQty": 250,
       "shippingTime": "5 days",
-      "dimensions": "15x59xx15",
-      "weight": "36.23 Lbs",
       "sku": "SKU-5668",
       "related": [
          {
@@ -416,8 +394,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "2 weeks",
-      "dimensions": "4x4x8",
-      "weight": "150.49 Lbs",
       "sku": "SKU-08974",
       "related": [
          {
@@ -452,8 +428,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "2 weeks",
-      "dimensions": "50x95x65",
-      "weight": "150.49 Lbs",
       "sku": "SKU-08974",
       "related": [
          {
@@ -488,8 +462,6 @@
       "vendor": "Brook's",
       "inventoryQty": 250,
       "shippingTime": "2 weeks",
-      "dimensions": "50x95x65",
-      "weight": "150.49 Lbs",
       "sku": "SKU-05568",
       "related": [
          {
@@ -524,8 +496,6 @@
       "vendor": "Kid's Valley",
       "inventoryQty": 250,
       "shippingTime": "1 week",
-      "dimensions": "50x95x65",
-      "weight": "20.49 Lbs",
       "sku": "SKU-0548",
       "related": [
          {
@@ -560,8 +530,6 @@
       "vendor": "Kid's Valley",
       "inventoryQty": 250,
       "shippingTime": "1 week",
-      "dimensions": "50x95x65",
-      "weight": "3.12 Lbs",
       "sku": "SKU-4568",
       "related": [
          {
@@ -596,8 +564,6 @@
       "vendor": "Kid's Valley",
       "inventoryQty": 250,
       "shippingTime": "1 week",
-      "dimensions": "50x95x65",
-      "weight": "62.12 Lbs",
       "sku": "SKU-15645",
       "related": [
          {
@@ -632,8 +598,6 @@
       "vendor": "Kid's Valley",
       "inventoryQty": 250,
       "shippingTime": "1 week",
-      "dimensions": "50x95x65",
-      "weight": "9.75 Lbs",
       "sku": "SKU-55648",
       "related": [
          {

@@ -1,0 +1,210 @@
+/* html */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Parent */
+.parent {
+    display: flex;
+    padding-top: 45px;
+    padding-left: 10%;
+    margin-bottom: 100px;
+}
+
+
+/* Form get size */
+
+.parent .size-calculator {
+    width: 50%;
+}
+
+.parent .size-calculator .title {
+    font-size: 25px;
+    font-size: 25px;
+    min-width: 85px;
+    font-weight: 500;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.parent .size-calculator input[type='number'] {
+    width: 58px;
+    height: 30px;
+    padding: 0 5px;
+    border: 1px solid #bbb;
+    box-shadow: 0 0 0 1px #d8d8d8, inset 0 4px 7px 0 rgba(204, 204, 204, 0.7);
+}
+
+.parent .details .show-toolTip {
+    cursor: pointer;
+}
+
+/* human img */
+.parent .human-img {
+    background-image: url('../img/ui/unisex.png');
+    width: 50%;
+    height: 520px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.parent .human-img>p {
+    position: absolute;
+    color: #39a9dc;
+    font: bold 13px Arial;
+}
+
+.parent .human-img p.height {
+    left: 125px;
+    top: 10px;
+}
+
+.parent .human-img p.bust {
+    top: 110px;
+    left: 50px;
+}
+
+.parent .human-img p.waist {
+    top: 190px;
+    left: 55px;
+}
+
+.parent .human-img p.hips {
+    top: 230px;
+    left: 52px;
+}
+
+.parent .human-img p.inseam {
+    top: 278px;
+    left: 43px;
+}
+
+.quick {
+    color: #000;
+    font-weight: 600 !important;
+}
+
+/* pop up */
+.parent .modal {
+    display: none;
+    position: fixed;
+    z-index: 1111;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.parent .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.parent .modal-content .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.parent .modal-content .close:hover,
+.parent .modal-content .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.details {
+    margin-bottom: 15px;
+}
+
+/************************************************************************************************************************/
+
+.content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.content .heading-content h1 {
+    display: table !important;
+    position: relative;
+    margin: 0 auto 2em;
+}
+
+.content .heading-content h1:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -45%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 30%;
+    height: 3px;
+    border-bottom: 3px solid #1a2d40;
+}
+
+.content .sizeme-results .cards {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.content .sizeme-results .result-card {
+    margin: 0 auto;
+}
+
+.content .sizeme-results .result-card>h5 {
+    font-size: 25px;
+}
+
+.content .sizeme-results .result-card>p {
+    line-height: 0;
+    font-size: 35px;
+}
+
+.content .sizeme-results .finaly-size>h5 {
+    font-size: 55px;
+    margin: 0;
+    line-height: 1;
+}
+
+.content .sizeme-results .finaly-size>p {
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+
+.btns>a {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    padding: 11px 1.8em;
+    border: .1em solid transparent;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-flex;
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out, color 0.25s ease-in-out, border 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.btns .discreteButton {
+    background-color: #f8f8f8;
+    color: #6f6f6f;
+}
+
+.btns .primaryButton {
+    background-color: #294764;
+    color: white;
+}
+
+.btns .primaryButton:hover {
+    opacity: .8;
+}

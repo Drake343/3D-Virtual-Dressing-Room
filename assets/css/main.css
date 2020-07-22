@@ -329,6 +329,7 @@ a {
 
 @-webkit-keyframes fadeIn {
     from {}
+
     to {
         opacity: 1
     }
@@ -336,6 +337,7 @@ a {
 
 @keyframes fadeIn {
     from {}
+
     to {
         opacity: 1
     }
@@ -369,6 +371,7 @@ a {
         -webkit-transform: translate3d(0, 20px, 0);
         transform: translate3d(0, 20px, 0)
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -381,6 +384,7 @@ a {
         -webkit-transform: translate3d(0, 20px, 0);
         transform: translate3d(0, 20px, 0)
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -407,6 +411,7 @@ a {
         -webkit-transform: translate3d(100%, 0, 0);
         transform: translate3d(100%, 0, 0)
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0)
@@ -418,6 +423,7 @@ a {
         -webkit-transform: translate3d(100%, 0, 0);
         transform: translate3d(100%, 0, 0)
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0)
@@ -441,6 +447,7 @@ a {
         transform: translate3d(20px, 0, 0);
         opacity: 0
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -454,6 +461,7 @@ a {
         transform: translate3d(20px, 0, 0);
         opacity: 0
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -476,35 +484,43 @@ a {
 }
 
 @-webkit-keyframes gelatine {
+
     from,
     to {
         -webkit-transform: scale(1, 1)
     }
+
     25% {
         -webkit-transform: scale(0.9, 1.1)
     }
+
     50% {
         -webkit-transform: scale(1.1, 0.9)
     }
+
     75% {
         -webkit-transform: scale(0.95, 1.05)
     }
 }
 
 @keyframes gelatine {
+
     from,
     to {
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1)
     }
+
     25% {
         -webkit-transform: scale(0.9, 1.1);
         transform: scale(0.9, 1.1)
     }
+
     50% {
         -webkit-transform: scale(1.1, 0.9);
         transform: scale(1.1, 0.9)
     }
+
     75% {
         -webkit-transform: scale(0.95, 1.05);
         transform: scale(0.95, 1.05)
@@ -526,6 +542,7 @@ a {
     from {
         -webkit-transform: scale(0)
     }
+
     to {
         -webkit-transform: scale(1)
     }
@@ -536,6 +553,7 @@ a {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     to {
         -webkit-transform: scale(1);
         transform: scale(1)
@@ -555,6 +573,7 @@ a {
     from {
         -webkit-transform: scale(1)
     }
+
     to {
         -webkit-transform: scale(0)
     }
@@ -565,6 +584,7 @@ a {
         -webkit-transform: scale(1);
         transform: scale(1)
     }
+
     to {
         -webkit-transform: scale(0);
         transform: scale(0)
@@ -583,10 +603,12 @@ a {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0)
     }
+
     50% {
         -webkit-transform: translate(0, 10px);
         transform: translate(0, 10px)
     }
+
     to {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0)
@@ -598,10 +620,12 @@ a {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0)
     }
+
     50% {
         -webkit-transform: translate(0, 10px);
         transform: translate(0, 10px)
     }
+
     to {
         -webkit-transform: translate(0, 0);
         transform: translate(0, 0)
@@ -627,6 +651,7 @@ a {
         -webkit-transform: scale(1.5);
         transform: scale(1.5)
     }
+
     100% {
         opacity: 1;
         -webkit-transform: scale(1);
@@ -640,6 +665,7 @@ a {
         -webkit-transform: scale(1.5);
         transform: scale(1.5)
     }
+
     100% {
         opacity: 1;
         -webkit-transform: scale(1);
@@ -651,6 +677,7 @@ a {
     0% {
         stroke-dashoffset: 151px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -660,6 +687,7 @@ a {
     0% {
         stroke-dashoffset: 151px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -669,6 +697,7 @@ a {
     0% {
         stroke-dashoffset: 36px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -678,6 +707,7 @@ a {
     0% {
         stroke-dashoffset: 36px
     }
+
     100% {
         stroke-dashoffset: 0
     }
@@ -687,6 +717,7 @@ a {
     0% {
         opacity: 1
     }
+
     100% {
         opacity: 0
     }
@@ -696,6 +727,7 @@ a {
     0% {
         opacity: 1
     }
+
     100% {
         opacity: 0
     }
@@ -705,6 +737,7 @@ a {
     0% {
         opacity: 0
     }
+
     100% {
         opacity: 1
     }
@@ -716,6 +749,7 @@ a {
         transform: translate3d(0, 10px, 0);
         opacity: 0
     }
+
     to {
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
@@ -1733,11 +1767,13 @@ body {
 }
 
 @-webkit-keyframes page-loader-inner {
+
     0%,
     40% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -1746,11 +1782,13 @@ body {
 }
 
 @keyframes page-loader-inner {
+
     0%,
     40% {
         -webkit-transform: scale(0);
         transform: scale(0)
     }
+
     100% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -1763,6 +1801,7 @@ body {
         -webkit-transform: scale(1);
         transform: scale(1)
     }
+
     100%,
     40% {
         -webkit-transform: scale(0);
@@ -1776,6 +1815,7 @@ body {
         -webkit-transform: scale(1);
         transform: scale(1)
     }
+
     100%,
     40% {
         -webkit-transform: scale(0);
@@ -4907,10 +4947,12 @@ button[type=submit],
 /*! _utils.scss | TopShop */
 
 @media (min-width: 768px) {
+
     /* line 22, src/assets/scss/components/_messages.scss */
     .iziToast .iziToast-body {
         max-width: 250px
     }
+
     /* line 26, src/assets/scss/components/_messages.scss */
     .iziToast .iziToast-body .iziToast-icon {
         height: 24px;
@@ -4918,6 +4960,7 @@ button[type=submit],
         margin-right: 4px;
         font-size: 1rem
     }
+
     /* line 34, src/assets/scss/components/_messages.scss */
     .iziToast .iziToast-body .iziToast-texts p,
     .iziToast .iziToast-body .iziToast-texts strong {
@@ -4926,12 +4969,14 @@ button[type=submit],
 }
 
 @media (max-width: 767px) {
+
     /* line 43, src/assets/scss/components/_messages.scss */
     .iziToast-wrapper {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center
     }
+
     /* line 49, src/assets/scss/components/_messages.scss */
     .iziToast .iziToast-body .iziToast-icon {
         height: 24px;
@@ -4939,6 +4984,7 @@ button[type=submit],
         margin-right: 4px;
         font-size: 1rem
     }
+
     /* line 57, src/assets/scss/components/_messages.scss */
     .iziToast .iziToast-body .iziToast-texts p,
     .iziToast .iziToast-body .iziToast-texts strong {
@@ -6128,6 +6174,7 @@ textarea.textarea.is-button+.textarea-button button {
     from {
         stroke-dashoffset: 0
     }
+
     to {
         stroke-dashoffset: 166
     }
@@ -6137,6 +6184,7 @@ textarea.textarea.is-button+.textarea-button button {
     from {
         stroke-dashoffset: 0
     }
+
     to {
         stroke-dashoffset: 166
     }
@@ -6146,6 +6194,7 @@ textarea.textarea.is-button+.textarea-button button {
     from {
         stroke-dashoffset: 0
     }
+
     to {
         stroke-dashoffset: 48
     }
@@ -6155,6 +6204,7 @@ textarea.textarea.is-button+.textarea-button button {
     from {
         stroke-dashoffset: 0
     }
+
     to {
         stroke-dashoffset: 48
     }
@@ -9709,6 +9759,7 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media (max-width: 767px) {
+
     /* line 857, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card {
         -webkit-box-orient: vertical;
@@ -9716,12 +9767,14 @@ textarea.textarea.is-button+.textarea-button button {
         -ms-flex-direction: column;
         flex-direction: column
     }
+
     /* line 860, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card .left-side {
         width: 100%;
         padding: 20px 10px 0 20px;
         padding-bottom: 0
     }
+
     /* line 865, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card .left-side .order-header {
         -webkit-box-orient: vertical;
@@ -9730,19 +9783,23 @@ textarea.textarea.is-button+.textarea-button button {
         flex-direction: column;
         position: relative
     }
+
     /* line 869, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card .left-side .order-header h3,
     .is-account-grid .order-long-card .left-side .order-header span {
         margin-right: 0
     }
+
     /* line 873, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card .left-side .order-header .tag {
         display: none
     }
+
     /* line 877, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card .left-side .order-header .order-total {
         margin-left: 0
     }
+
     /* line 883, src/assets/scss/pages/_orders.scss */
     .is-account-grid .order-long-card .right-side {
         width: 100%;
@@ -10354,6 +10411,10 @@ textarea.textarea.is-button+.textarea-button button {
 
 .product-info-panel .inner-panel .panel-body .product-controls .product-quantity {
     margin-left: auto
+}
+
+.product-quantity-size {
+    margin-right: 20px;
 }
 
 /* line 464, src/assets/scss/pages/_product.scss */
@@ -12402,18 +12463,22 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media (max-width: 1300px) {
+
     /* line 1317, src/assets/scss/pages/_checkout.scss */
     .action-bar {
         width: calc(100% - 440px) !important
     }
+
     /* line 1322, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main {
         width: calc(100% - 360px)
     }
+
     /* line 1326, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side {
         width: 360px
     }
+
     /* line 1330, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side .side-inner .side-action {
         width: 360px
@@ -12421,18 +12486,22 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media (max-width: 1024px) {
+
     /* line 1339, src/assets/scss/pages/_checkout.scss */
     .action-bar {
         width: calc(100% - 400px) !important
     }
+
     /* line 1344, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main {
         width: calc(100% - 320px)
     }
+
     /* line 1348, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side {
         width: 320px
     }
+
     /* line 1352, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side .side-inner .side-action {
         width: 320px
@@ -12440,10 +12509,12 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media (max-width: 990px) {
+
     /* line 1361, src/assets/scss/pages/_checkout.scss */
     .action-bar {
         width: calc(100% - 80px) !important
     }
+
     /* line 1365, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper {
         -webkit-box-orient: vertical;
@@ -12451,27 +12522,33 @@ textarea.textarea.is-button+.textarea-button button {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse
     }
+
     /* line 1368, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main {
         width: 100%
     }
+
     /* line 1372, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .flex-table {
         padding-bottom: 0 !important
     }
+
     /* line 1376, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .coupon-wrapper {
         margin-bottom: 30px
     }
+
     /* line 1382, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side {
         position: static;
         width: 100%
     }
+
     /* line 1386, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side .side-inner {
         padding: 30px 30px 20px 30px
     }
+
     /* line 1389, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side .side-inner .side-action {
         position: static;
@@ -12482,14 +12559,17 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media (max-width: 767px) {
+
     /* line 1401, src/assets/scss/pages/_checkout.scss */
     .action-bar {
         width: calc(100% - 80px) !important
     }
+
     /* line 1406, src/assets/scss/pages/_checkout.scss */
     .flex-table .flex-table-header {
         display: none
     }
+
     /* line 1410, src/assets/scss/pages/_checkout.scss */
     .flex-table .flex-table-item {
         -webkit-box-orient: vertical;
@@ -12503,19 +12583,23 @@ textarea.textarea.is-button+.textarea-button button {
         padding: 20px;
         margin-bottom: 16px
     }
+
     /* line 1417, src/assets/scss/pages/_checkout.scss */
     .flex-table .flex-table-item:last-child {
         margin-bottom: 0
     }
+
     /* line 1421, src/assets/scss/pages/_checkout.scss */
     .flex-table .flex-table-item>div {
         border: none !important
     }
+
     /* line 1426, src/assets/scss/pages/_checkout.scss */
     .flex-table .product {
         width: 100% !important;
         padding-bottom: 10px
     }
+
     /* line 1431, src/assets/scss/pages/_checkout.scss */
     .flex-table .quantity,
     .flex-table .price,
@@ -12528,6 +12612,7 @@ textarea.textarea.is-button+.textarea-button button {
         width: 100% !important;
         border: none
     }
+
     /* line 1437, src/assets/scss/pages/_checkout.scss */
     .flex-table .quantity:before,
     .flex-table .price:before,
@@ -12538,6 +12623,7 @@ textarea.textarea.is-button+.textarea-button button {
         font-weight: 500;
         color: #999
     }
+
     /* line 1446, src/assets/scss/pages/_checkout.scss */
     .flex-table .quantity:before {
         content: 'Quantity';
@@ -12545,6 +12631,7 @@ textarea.textarea.is-button+.textarea-button button {
         top: 0;
         left: 0
     }
+
     /* line 1455, src/assets/scss/pages/_checkout.scss */
     .flex-table .price:before {
         content: 'Price';
@@ -12552,6 +12639,7 @@ textarea.textarea.is-button+.textarea-button button {
         top: 0;
         left: 0
     }
+
     /* line 1464, src/assets/scss/pages/_checkout.scss */
     .flex-table .discount:before {
         content: 'Discount';
@@ -12559,6 +12647,7 @@ textarea.textarea.is-button+.textarea-button button {
         top: 0;
         left: 0
     }
+
     /* line 1473, src/assets/scss/pages/_checkout.scss */
     .flex-table .total:before {
         content: 'Total';
@@ -12566,14 +12655,17 @@ textarea.textarea.is-button+.textarea-button button {
         top: 0;
         left: 0
     }
+
     /* line 1482, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper {
         padding-top: 51px !important
     }
+
     /* line 1486, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container {
         padding: 0 30px
     }
+
     /* line 1492, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .coupon-wrapper .field .control .coupon-button {
         position: static;
@@ -12581,34 +12673,41 @@ textarea.textarea.is-button+.textarea-button button {
         border-radius: 100px;
         width: 100%
     }
+
     /* line 1503, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .checkout-payment-methods .payment-disclaimer {
         margin-left: 0
     }
+
     /* line 1508, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .checkout-form {
         margin: 30px 0
     }
+
     /* line 1511, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .checkout-form .card-wrapper {
         margin-bottom: 30px
     }
+
     /* line 1517, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .order-summary .flex-table {
         padding-bottom: 30px !important
     }
+
     /* line 1522, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .checkout-success {
         height: auto;
         min-height: auto;
         padding: 30px 0
     }
+
     /* line 1527, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-main .checkout-container .checkout-success .success-card {
         top: 0;
         margin: 0;
         padding: 30px
     }
+
     /* line 1536, src/assets/scss/pages/_checkout.scss */
     .checkout-wrapper .checkout-side {
         position: static;
@@ -13747,6 +13846,7 @@ textarea.textarea.is-button+.textarea-button button {
 
 @media only screen and (max-width: 760px),
 (min-device-width: 768px) and (max-device-width: 1024px) {
+
     /* line 189, src/assets/scss/pages/_invoice.scss */
     .responsive-table table,
     .responsive-table thead,
@@ -13756,16 +13856,19 @@ textarea.textarea.is-button+.textarea-button button {
     .responsive-table tr {
         display: block
     }
+
     /* line 194, src/assets/scss/pages/_invoice.scss */
     .responsive-table thead tr {
         position: absolute;
         top: -9999px;
         left: -9999px
     }
+
     /* line 200, src/assets/scss/pages/_invoice.scss */
     .responsive-table tr {
         border: 1px solid #ccc
     }
+
     /* line 204, src/assets/scss/pages/_invoice.scss */
     .responsive-table td {
         border: none;
@@ -13773,10 +13876,12 @@ textarea.textarea.is-button+.textarea-button button {
         position: relative;
         padding-left: 50%
     }
+
     /* line 211, src/assets/scss/pages/_invoice.scss */
     .responsive-table td.has-text-centered {
         text-align: left !important
     }
+
     /* line 216, src/assets/scss/pages/_invoice.scss */
     .responsive-table td:before {
         position: absolute;
@@ -13790,18 +13895,22 @@ textarea.textarea.is-button+.textarea-button button {
         font-size: .75rem;
         color: #828282 !important
     }
+
     /* line 233, src/assets/scss/pages/_invoice.scss */
     .responsive-table td:nth-of-type(1):before {
         content: "Product"
     }
+
     /* line 237, src/assets/scss/pages/_invoice.scss */
     .responsive-table td:nth-of-type(2):before {
         content: "Quantity"
     }
+
     /* line 241, src/assets/scss/pages/_invoice.scss */
     .responsive-table td:nth-of-type(3):before {
         content: "Price"
     }
+
     /* line 245, src/assets/scss/pages/_invoice.scss */
     .responsive-table td:nth-of-type(4):before {
         content: "Total"
@@ -14547,16 +14656,19 @@ textarea.textarea.is-button+.textarea-button button {
 /*! _responsive.scss | TopShop */
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+
     /* line 24, src/assets/scss/layout/_responsive.scss */
     .fullscreen-slick .full-slide {
         background-position: bottom
     }
+
     /* line 29, src/assets/scss/layout/_responsive.scss */
     .fullscreen-slick .slick-dots {
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%)
     }
+
     /* line 37, src/assets/scss/layout/_responsive.scss */
     .shop-wrapper .is-tablet-landscape-padded {
         margin-left: 5.33333% !important
@@ -14564,50 +14676,61 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+
     /* line 51, src/assets/scss/layout/_responsive.scss */
     .shop-wrapper .is-tablet-landscape-padded {
         width: 100% !important;
         margin: 0 !important
     }
+
     /* line 56, src/assets/scss/layout/_responsive.scss */
     .shop-wrapper .is-invoice-landscape-padded {
         width: 100% !important;
         margin: 0 !important
     }
+
     /* line 62, src/assets/scss/layout/_responsive.scss */
     .shop-quickview {
         left: 79px
     }
+
     /* line 67, src/assets/scss/layout/_responsive.scss */
     .product-panel {
         width: 35%
     }
+
     /* line 71, src/assets/scss/layout/_responsive.scss */
     .product-panel .likes {
         margin: 0 30px !important
     }
+
     /* line 76, src/assets/scss/layout/_responsive.scss */
     .product-panel .detailed-description,
     .product-panel .product-ratings {
         padding: 10px 20px !important;
         margin-top: 10px !important
     }
+
     /* line 82, src/assets/scss/layout/_responsive.scss */
     .product-panel .product-image {
         padding: 40% 0 !important
     }
+
     /* line 85, src/assets/scss/layout/_responsive.scss */
     .product-panel .product-image img {
         max-width: 220px
     }
+
     /* line 92, src/assets/scss/layout/_responsive.scss */
     .product-info-panel {
         width: 65%
     }
+
     /* line 95, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .category-title {
         padding: 0 40px !important
     }
+
     /* line 99, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .panel-body {
         padding: 60px 40px !important
@@ -14615,29 +14738,35 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
     /* line 112, src/assets/scss/layout/_responsive.scss */
     .fullscreen-slick .full-slide {
         background-position: bottom
     }
+
     /* line 116, src/assets/scss/layout/_responsive.scss */
     .fullscreen-slick .slick-dots {
         left: 50%;
         -webkit-transform: translateX(-50%);
         transform: translateX(-50%)
     }
+
     /* line 123, src/assets/scss/layout/_responsive.scss */
     .hero-caption {
         padding: 160px 0 !important
     }
+
     /* line 127, src/assets/scss/layout/_responsive.scss */
     .background-caption {
         padding: 90px 0 !important
     }
+
     /* line 133, src/assets/scss/layout/_responsive.scss */
     .main-sidebar.is-pushed-mobile {
         -webkit-transform: translateX(-100%) !important;
         transform: translateX(-100%) !important
     }
+
     /* line 139, src/assets/scss/layout/_responsive.scss */
     .main-sidebar .sidebar-inner .icon-menu .fold-link,
     .main-sidebar .sidebar-inner .bottom-menu .fold-link {
@@ -14645,34 +14774,41 @@ textarea.textarea.is-button+.textarea-button button {
         display: -ms-flexbox !important;
         display: flex !important
     }
+
     /* line 147, src/assets/scss/layout/_responsive.scss */
     .shop-wrapper {
         margin-top: 20px !important;
         width: 100%;
         margin-left: 0
     }
+
     /* line 154, src/assets/scss/layout/_responsive.scss */
     .menu-fab {
         top: 80px !important
     }
+
     /* line 160, src/assets/scss/layout/_responsive.scss */
     .category-title .brand-filigrane {
         left: -26px !important
     }
+
     /* line 168, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image {
         min-height: 300px !important;
         padding: 1.25rem 1.5rem !important
     }
+
     /* line 172, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image .tile-content {
         height: 260px !important
     }
+
     /* line 176, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image .tile-content.is-small .divider,
     .tile.has-background-image .tile-content.is-small p {
         display: block !important
     }
+
     /* line 181, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image .tile-content .products {
         position: absolute;
@@ -14680,10 +14816,12 @@ textarea.textarea.is-button+.textarea-button button {
         padding: 0;
         left: 0
     }
+
     /* line 192, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long {
         display: block
     }
+
     /* line 195, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .left-image,
     .flat-card.is-long .left-image.is-md {
@@ -14691,6 +14829,7 @@ textarea.textarea.is-button+.textarea-button button {
         margin: 40px 0 !important;
         width: 100% !important
     }
+
     /* line 200, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .left-image img,
     .flat-card.is-long .left-image.is-md img {
@@ -14698,10 +14837,12 @@ textarea.textarea.is-button+.textarea-button button {
         margin: 10px auto !important;
         display: block !important
     }
+
     /* line 207, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .product-info {
         text-align: center !important
     }
+
     /* line 210, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .product-info h3 {
         font-family: 'Raleway', sans-serif !important;
@@ -14709,100 +14850,121 @@ textarea.textarea.is-button+.textarea-button button {
         font-size: .8rem !important;
         font-weight: 500 !important
     }
+
     /* line 220, src/assets/scss/layout/_responsive.scss */
     .product-panel {
         display: block;
         position: relative;
         width: 100%
     }
+
     /* line 225, src/assets/scss/layout/_responsive.scss */
     .product-panel .panel-header {
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start
     }
+
     /* line 228, src/assets/scss/layout/_responsive.scss */
     .product-panel .panel-header .likes {
         margin: 0 40px !important
     }
+
     /* line 234, src/assets/scss/layout/_responsive.scss */
     .product-panel img {
         max-width: 360px !important
     }
+
     /* line 239, src/assets/scss/layout/_responsive.scss */
     .product-panel .detailed-description,
     .product-panel .product-ratings {
         max-height: 75vh !important;
         padding: 20px 40px !important
     }
+
     /* line 245, src/assets/scss/layout/_responsive.scss */
     .product-panel .product-actions {
         padding: 0 10px !important;
         bottom: 40px !important
     }
+
     /* line 252, src/assets/scss/layout/_responsive.scss */
     .product-info-panel {
         display: block;
         position: relative;
         width: 100%
     }
+
     /* line 257, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel {
         padding-right: 0
     }
+
     /* line 261, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header {
         padding-top: 40px !important
     }
+
     /* line 264, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header .category-title {
         padding: 0 40px !important
     }
+
     /* line 267, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header .category-title h2 {
         padding-left: 20px !important
     }
+
     /* line 272, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header .category-icon {
         display: none !important
     }
+
     /* line 278, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body {
         padding: 0 40px 40px 40px !important
     }
+
     /* line 281, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-name {
         padding-top: 20px !important;
         font-size: 1.8rem !important
     }
+
     /* line 287, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between
     }
+
     /* line 290, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-price {
         margin-bottom: 10px
     }
+
     /* line 294, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-quantity {
         margin-left: 0 !important
     }
+
     /* line 299, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .add-to-cart button {
         margin-left: 0 !important
     }
+
     /* line 307, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer {
         display: block;
         position: relative
     }
+
     /* line 311, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer .footer-inner {
         margin-top: 0;
         padding-bottom: 45px
     }
+
     /* line 316, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer .footer-inner .recommended {
         display: block;
@@ -14812,48 +14974,58 @@ textarea.textarea.is-button+.textarea-button button {
         top: 12px;
         left: 40px
     }
+
     /* line 324, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer .footer-inner .product-info {
         padding: 0 40px;
         text-align: center !important
     }
+
     /* line 335, src/assets/scss/layout/_responsive.scss */
     .cart-card .action {
         display: -webkit-box !important;
         display: -ms-flexbox !important;
         display: flex !important
     }
+
     /* line 341, src/assets/scss/layout/_responsive.scss */
     .action-bar {
         width: 100% !important;
         margin-left: 0 !important
     }
+
     /* line 347, src/assets/scss/layout/_responsive.scss */
     .is-auth {
         padding: 100px 0 !important
     }
+
     /* line 352, src/assets/scss/layout/_responsive.scss */
     .checkout-wrapper {
         padding-top: 40px !important
     }
+
     /* line 355, src/assets/scss/layout/_responsive.scss */
     .checkout-wrapper .checkout-container {
         padding-bottom: 40px !important
     }
+
     /* line 358, src/assets/scss/layout/_responsive.scss */
     .checkout-wrapper .checkout-container .checkout-success {
         display: block !important;
         min-height: 356px !important
     }
+
     /* line 362, src/assets/scss/layout/_responsive.scss */
     .checkout-wrapper .checkout-container .checkout-success .success-card {
         top: 0 !important;
         margin: 40px auto 0 auto !important
     }
+
     /* line 369, src/assets/scss/layout/_responsive.scss */
     .checkout-wrapper .card-wrapper {
         margin-bottom: 20px
     }
+
     /* line 375, src/assets/scss/layout/_responsive.scss */
     .shipping-methods-grid .columns,
     .payment-methods-grid .columns,
@@ -14862,6 +15034,7 @@ textarea.textarea.is-button+.textarea-button button {
         display: -ms-flexbox;
         display: flex
     }
+
     /* line 378, src/assets/scss/layout/_responsive.scss */
     .shipping-methods-grid .columns .column,
     .payment-methods-grid .columns .column,
@@ -14870,6 +15043,7 @@ textarea.textarea.is-button+.textarea-button button {
         min-width: 50%;
         max-width: 50%
     }
+
     /* line 386, src/assets/scss/layout/_responsive.scss */
     .payment-disclaimer {
         margin-left: 0 !important
@@ -14877,10 +15051,12 @@ textarea.textarea.is-button+.textarea-button button {
 }
 
 @media (max-width: 767px) {
+
     /* line 398, src/assets/scss/layout/_responsive.scss */
     .fullscreen-slick .full-slide {
         background-position: bottom
     }
+
     /* line 403, src/assets/scss/layout/_responsive.scss */
     .fullscreen-slick .slick-dots {
         left: 50%;
@@ -14888,6 +15064,7 @@ textarea.textarea.is-button+.textarea-button button {
         transform: translateX(-50%);
         bottom: 24px !important
     }
+
     /* line 414, src/assets/scss/layout/_responsive.scss */
     .main-sidebar .sidebar-inner .icon-menu .fold-link,
     .main-sidebar .sidebar-inner .bottom-menu .fold-link {
@@ -14895,57 +15072,69 @@ textarea.textarea.is-button+.textarea-button button {
         display: -ms-flexbox !important;
         display: flex !important
     }
+
     /* line 422, src/assets/scss/layout/_responsive.scss */
     .navbar-link {
         padding: 0.5rem 1.5rem !important
     }
+
     /* line 427, src/assets/scss/layout/_responsive.scss */
     .menu-fab {
         top: 72px !important
     }
+
     /* line 432, src/assets/scss/layout/_responsive.scss */
     .shop-wrapper {
         width: 100%;
         margin-left: 0
     }
+
     /* line 438, src/assets/scss/layout/_responsive.scss */
     .shop-wrapper.is-mobile-mode {
         margin-top: 10px
     }
+
     /* line 444, src/assets/scss/layout/_responsive.scss */
     .pageloader,
     .infraloader {
         left: 60px;
         width: calc(100% - 60px)
     }
+
     /* line 448, src/assets/scss/layout/_responsive.scss */
     .pageloader.is-full,
     .infraloader.is-full {
         left: 0 !important;
         width: 100% !important
     }
+
     /* line 455, src/assets/scss/layout/_responsive.scss */
     .hero-caption {
         padding-top: 100px !important
     }
+
     /* line 458, src/assets/scss/layout/_responsive.scss */
     .hero-caption h1 {
         font-size: 4rem !important
     }
+
     /* line 462, src/assets/scss/layout/_responsive.scss */
     .hero-caption h2 {
         font-size: 1.3rem !important;
         margin-top: -20px !important
     }
+
     /* line 469, src/assets/scss/layout/_responsive.scss */
     .background-caption {
         top: 0 !important;
         padding-top: 76px !important
     }
+
     /* line 473, src/assets/scss/layout/_responsive.scss */
     .background-caption h1 {
         font-size: 6rem !important
     }
+
     /* line 479, src/assets/scss/layout/_responsive.scss */
     .search-input-wrapper.is-desktop {
         position: fixed;
@@ -14954,76 +15143,92 @@ textarea.textarea.is-button+.textarea-button button {
         height: 100%;
         width: calc(100% - 60px)
     }
+
     /* line 486, src/assets/scss/layout/_responsive.scss */
     .search-input-wrapper.is-desktop .field {
         padding: 0 5%;
         top: 22%
     }
+
     /* line 491, src/assets/scss/layout/_responsive.scss */
     .search-input-wrapper.is-desktop .search-help {
         font-size: 1rem !important
     }
+
     /* line 495, src/assets/scss/layout/_responsive.scss */
     .search-input-wrapper.is-desktop input {
         height: 60px !important;
         padding-right: 34px !important;
         font-size: 1.6rem !important
     }
+
     /* line 502, src/assets/scss/layout/_responsive.scss */
     .search-input-wrapper.is-desktop #clear-search {
         top: 10px !important;
         right: 1px !important
     }
+
     /* line 506, src/assets/scss/layout/_responsive.scss */
     .search-input-wrapper.is-desktop #clear-search svg {
         width: 32px !important;
         height: 32px !important
     }
+
     /* line 514, src/assets/scss/layout/_responsive.scss */
     .error-code {
         font-size: 12rem !important
     }
+
     /* line 519, src/assets/scss/layout/_responsive.scss */
     .is-product-grid {
         padding-top: 20px
     }
+
     /* line 522, src/assets/scss/layout/_responsive.scss */
     .is-product-grid .column {
         padding: .45rem .15rem !important
     }
+
     /* line 527, src/assets/scss/layout/_responsive.scss */
     .category-header {
         padding-top: 12px
     }
+
     /* line 532, src/assets/scss/layout/_responsive.scss */
     .category-title {
         border-bottom: none !important
     }
+
     /* line 536, src/assets/scss/layout/_responsive.scss */
     .category-title .category-icon {
         -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
         justify-content: flex-start !important
     }
+
     /* line 539, src/assets/scss/layout/_responsive.scss */
     .category-title .category-icon img {
         max-height: 30px !important;
         padding: 0 !important
     }
+
     /* line 545, src/assets/scss/layout/_responsive.scss */
     .category-title h2 {
         font-size: 1.4rem !important
     }
+
     /* line 550, src/assets/scss/layout/_responsive.scss */
     .category-title .brand-filigrane {
         top: -16px !important;
         left: -25px !important;
         height: 58px !important
     }
+
     /* line 558, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long {
         display: block
     }
+
     /* line 561, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .left-image,
     .flat-card.is-long .left-image.is-md {
@@ -15031,6 +15236,7 @@ textarea.textarea.is-button+.textarea-button button {
         margin: 40px 0 !important;
         width: 100% !important
     }
+
     /* line 566, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .left-image img,
     .flat-card.is-long .left-image.is-md img {
@@ -15038,6 +15244,7 @@ textarea.textarea.is-button+.textarea-button button {
         margin: 10px auto !important;
         display: block !important
     }
+
     /* line 573, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-long .product-info h3 {
         font-family: 'Raleway', sans-serif !important;
@@ -15045,6 +15252,7 @@ textarea.textarea.is-button+.textarea-button button {
         font-size: .8rem !important;
         font-weight: 500 !important
     }
+
     /* line 582, src/assets/scss/layout/_responsive.scss */
     .shop-quickview {
         left: 80px !important;
@@ -15052,6 +15260,7 @@ textarea.textarea.is-button+.textarea-button button {
         -webkit-transform: translateX(calc(-100% - 80px));
         transform: translateX(calc(-100% - 80px))
     }
+
     /* line 589, src/assets/scss/layout/_responsive.scss */
     .cart-quickview {
         left: 80px !important;
@@ -15059,6 +15268,7 @@ textarea.textarea.is-button+.textarea-button button {
         -webkit-transform: translateX(calc(-100% - 80px));
         transform: translateX(calc(-100% - 80px))
     }
+
     /* line 598, src/assets/scss/layout/_responsive.scss */
     .cart-quickview .inner .cart-body .shopping-cart-items li .quantity {
         position: relative;
@@ -15066,12 +15276,14 @@ textarea.textarea.is-button+.textarea-button button {
         left: -22px;
         padding: 0 !important
     }
+
     /* line 604, src/assets/scss/layout/_responsive.scss */
     .cart-quickview .inner .cart-body .shopping-cart-items li .quantity .sidebar-spinner {
         margin: 12px 0 !important;
         -webkit-transform: scale(0.85);
         transform: scale(0.85)
     }
+
     /* line 616, src/assets/scss/layout/_responsive.scss */
     .filters-quickview {
         left: 80px !important;
@@ -15079,20 +15291,24 @@ textarea.textarea.is-button+.textarea-button button {
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%)
     }
+
     /* line 623, src/assets/scss/layout/_responsive.scss */
     .range-slider {
         width: 200px !important
     }
+
     /* line 626, src/assets/scss/layout/_responsive.scss */
     .range-slider .input-range {
         width: 200px !important
     }
+
     /* line 632, src/assets/scss/layout/_responsive.scss */
     .product-panel {
         display: block;
         position: relative;
         width: 100%
     }
+
     /* line 637, src/assets/scss/layout/_responsive.scss */
     .product-panel .panel-header {
         -webkit-box-pack: start;
@@ -15100,10 +15316,12 @@ textarea.textarea.is-button+.textarea-button button {
         justify-content: flex-start;
         padding-top: 60px
     }
+
     /* line 641, src/assets/scss/layout/_responsive.scss */
     .product-panel .panel-header .likes {
         margin: 0 30px
     }
+
     /* line 646, src/assets/scss/layout/_responsive.scss */
     .product-panel .detailed-description,
     .product-panel .product-ratings {
@@ -15111,24 +15329,29 @@ textarea.textarea.is-button+.textarea-button button {
         max-height: 70vh !important;
         padding: 10px 20px !important
     }
+
     /* line 652, src/assets/scss/layout/_responsive.scss */
     .product-panel .product-actions {
         bottom: 30px !important
     }
+
     /* line 658, src/assets/scss/layout/_responsive.scss */
     .product-info-panel {
         display: block;
         position: relative;
         width: 100%
     }
+
     /* line 663, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel {
         padding-right: 0
     }
+
     /* line 666, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header {
         padding: 20px 0
     }
+
     /* line 669, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header .category-title {
         padding: 0 20px !important;
@@ -15136,88 +15359,106 @@ textarea.textarea.is-button+.textarea-button button {
         -ms-flex-pack: center;
         justify-content: center
     }
+
     /* line 673, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header .category-title h2 {
         font-size: 1.1rem !important;
         padding: 0 10px !important
     }
+
     /* line 678, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-header .category-title svg {
         display: none !important
     }
+
     /* line 685, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body {
         padding: 20px !important
     }
+
     /* line 688, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-name {
         text-align: center !important;
         font-size: 1.8rem !important
     }
+
     /* line 692, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-name span {
         display: block
     }
+
     /* line 697, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-description {
         text-align: center
     }
+
     /* line 701, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls {
         display: block
     }
+
     /* line 704, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-price {
         margin-bottom: 10px;
         width: 100%;
         text-align: center
     }
+
     /* line 709, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-price .value::after {
         display: none
     }
+
     /* line 714, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-quantity {
         margin-left: 0 !important;
         width: 100%;
         text-align: center !important
     }
+
     /* line 719, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-quantity .heading {
         margin-left: 0 !important;
         text-align: center
     }
+
     /* line 724, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .product-quantity .control {
         height: auto;
         width: 100%;
         max-width: 100%
     }
+
     /* line 731, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .add-to-cart {
         width: 100%;
         text-align: center;
         margin-top: 10px
     }
+
     /* line 736, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .add-to-cart .heading {
         display: none
     }
+
     /* line 740, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-body .product-controls .add-to-cart button {
         margin-left: 0 !important;
         width: 100%
     }
+
     /* line 749, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer {
         display: block;
         position: relative
     }
+
     /* line 753, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer .footer-inner {
         margin-top: 20px;
         padding-bottom: 45px
     }
+
     /* line 757, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer .footer-inner .recommended {
         display: block;
@@ -15230,28 +15471,34 @@ textarea.textarea.is-button+.textarea-button button {
         margin: 0 auto;
         text-align: center
     }
+
     /* line 768, src/assets/scss/layout/_responsive.scss */
     .product-info-panel .inner-panel .panel-footer .footer-inner .product-info {
         text-align: center !important
     }
+
     /* line 778, src/assets/scss/layout/_responsive.scss */
     .is-account-grid .column {
         padding: .75rem .25rem !important
     }
+
     /* line 784, src/assets/scss/layout/_responsive.scss */
     .account-title .brand-filigrane {
         top: -8px !important;
         left: -25px !important;
         height: 60px !important
     }
+
     /* line 790, src/assets/scss/layout/_responsive.scss */
     .account-title .ml-auto {
         display: none
     }
+
     /* line 797, src/assets/scss/layout/_responsive.scss */
     .profile-info-card .card-title {
         padding: 15px 12px
     }
+
     /* line 804, src/assets/scss/layout/_responsive.scss */
     .wishlist-card .item-wrapper {
         -webkit-box-orient: vertical;
@@ -15260,45 +15507,55 @@ textarea.textarea.is-button+.textarea-button button {
         flex-direction: column;
         padding: 40px !important
     }
+
     /* line 808, src/assets/scss/layout/_responsive.scss */
     .wishlist-card .item-wrapper img {
         margin-right: 0 !important
     }
+
     /* line 812, src/assets/scss/layout/_responsive.scss */
     .wishlist-card .item-wrapper .product-info {
         text-align: center
     }
+
     /* line 816, src/assets/scss/layout/_responsive.scss */
     .wishlist-card .item-wrapper .action {
         margin: 0 !important
     }
+
     /* line 819, src/assets/scss/layout/_responsive.scss */
     .wishlist-card .item-wrapper .action .dropdown-menu {
         left: 0 !important;
         -webkit-transform: translateX(-40%) !important;
         transform: translateX(-40%) !important
     }
+
     /* line 827, src/assets/scss/layout/_responsive.scss */
     .menu-card {
         margin-bottom: 0
     }
+
     /* line 832, src/assets/scss/layout/_responsive.scss */
     .wishlist-item .action {
         padding: 10px 0
     }
+
     /* line 838, src/assets/scss/layout/_responsive.scss */
     .action-bar {
         width: calc(100% - 60px) !important;
         margin-left: 60px !important
     }
+
     /* line 844, src/assets/scss/layout/_responsive.scss */
     .invoice-wrapper {
         padding: .75rem 0 !important
     }
+
     /* line 848, src/assets/scss/layout/_responsive.scss */
     .invoice {
         padding: 20px !important
     }
+
     /* line 854, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-auth-form .columns {
         -webkit-box-orient: vertical;
@@ -15306,20 +15563,24 @@ textarea.textarea.is-button+.textarea-button button {
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse
     }
+
     /* line 861, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image {
         min-height: 300px !important;
         padding: 1.25rem 1.5rem !important
     }
+
     /* line 865, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image .tile-content {
         height: 260px !important
     }
+
     /* line 869, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image .tile-content.is-small .divider,
     .tile.has-background-image .tile-content.is-small p {
         display: block !important
     }
+
     /* line 874, src/assets/scss/layout/_responsive.scss */
     .tile.has-background-image .tile-content .products {
         position: absolute;
@@ -15327,22 +15588,27 @@ textarea.textarea.is-button+.textarea-button button {
         padding: 0;
         left: 0
     }
+
     /* line 886, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-list-item {
         padding: 20px !important
     }
+
     /* line 889, src/assets/scss/layout/_responsive.scss */
     .flat-card.is-list-item .product-info {
         padding: 20px !important
     }
+
     /* line 896, src/assets/scss/layout/_responsive.scss */
     .is-product-grid .product-info {
         text-align: center
     }
+
     /* line 903, src/assets/scss/layout/_responsive.scss */
     .cart-card:last-child {
         margin-bottom: 0
     }
+
     /* line 907, src/assets/scss/layout/_responsive.scss */
     .cart-card li {
         -webkit-box-pack: center;
@@ -15353,6 +15619,7 @@ textarea.textarea.is-button+.textarea-button button {
         -ms-flex-direction: column;
         flex-direction: column
     }
+
     /* line 911, src/assets/scss/layout/_responsive.scss */
     .cart-card li .product-info,
     .cart-card li .product-price,
@@ -15361,62 +15628,76 @@ textarea.textarea.is-button+.textarea-button button {
         text-align: center !important;
         padding: 5px !important
     }
+
     /* line 916, src/assets/scss/layout/_responsive.scss */
     .cart-card li .product-price span {
         margin-left: 0 !important
     }
+
     /* line 920, src/assets/scss/layout/_responsive.scss */
     .cart-card li .action {
         margin: 10px auto
     }
+
     /* line 923, src/assets/scss/layout/_responsive.scss */
     .cart-card li .action .action-link {
         margin: 0 2px !important
     }
+
     /* line 931, src/assets/scss/layout/_responsive.scss */
     .order-list-card {
         padding: 20px !important
     }
+
     /* line 939, src/assets/scss/layout/_responsive.scss */
     .checkout-title .brand-filigrane {
         left: -15px !important
     }
+
     /* line 946, src/assets/scss/layout/_responsive.scss */
     .action-bar.is-mobile {
         width: 100% !important;
         margin-left: 0 !important
     }
+
     /* line 953, src/assets/scss/layout/_responsive.scss */
     .customer-wrapper,
     .verification-wrapper {
         padding: 0 !important
     }
+
     /* line 957, src/assets/scss/layout/_responsive.scss */
     .shipping-wrapper {
         padding: 20px 10px !important
     }
+
     /* line 961, src/assets/scss/layout/_responsive.scss */
     .payment-wrapper {
         padding: 20px 0 !important
     }
+
     /* line 965, src/assets/scss/layout/_responsive.scss */
     #payment-methods {
         padding: 20px 0 !important
     }
+
     /* line 973, src/assets/scss/layout/_responsive.scss */
     .thanks-card p {
         padding: 10px 0 !important
     }
+
     /* line 980, src/assets/scss/layout/_responsive.scss */
     .auth-title .brand-filigrane {
         top: -10px !important;
         left: -16px !important;
         height: 58px !important
     }
+
     /* line 988, src/assets/scss/layout/_responsive.scss */
     .is-auth-form .column.is-mobile-padded {
         padding: 40px 20px !important
     }
+
     /* line 994, src/assets/scss/layout/_responsive.scss */
     .modal .modal-content {
         max-width: calc(100% - 20px)
@@ -15805,4 +16086,5 @@ textarea.textarea.is-button+.textarea-button button {
 .team-member .mamber-role {
     text-align: center;
 }
+
 /*# sourceMappingURL=../../../scss */
