@@ -1182,8 +1182,11 @@ body {
 
 /* line 72, src/assets/scss/layout/_navbar.scss */
 
+.mobile-navbar .navbar-item.is-sidebar-toggler{
+    margin-left: auto;
+}
 .mobile-navbar .navbar-item.is-sidebar-toggler svg {
-    stroke: #999 !important
+    stroke: #999 !important;
 }
 
 /* line 78, src/assets/scss/layout/_navbar.scss */
@@ -16087,4 +16090,29 @@ textarea.textarea.is-button+.textarea-button button {
     text-align: center;
 }
 
+.add-margin {
+    margin: 10px 15px 10px 90px;
+}
+
+.home-card-ads {
+    border: 1px solid #ededed;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    transition: all 0.5s;
+    max-height: 300px;
+}
+
+@media (max-width: 768px) {
+    .add-margin {
+        margin: 0;
+    }
+}
+@media (max-width: 600px) {
+    .info-modal{
+        display: none;
+    }
+}
 /*# sourceMappingURL=../../../scss */
