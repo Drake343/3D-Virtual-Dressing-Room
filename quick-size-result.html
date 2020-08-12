@@ -1,69 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <!-- Required meta tags always come first -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-    
-        <title>QuickSize™</title>
-        <link rel="icon" type="image/png" href="assets/img/favicon.png" />
-    
-        <!--Core CSS -->
-        <link rel="stylesheet" href="assets/css/app.css">
-        <link rel="stylesheet" href="assets/css/bulma.css">
-        <link rel="stylesheet" href="assets/css/demo.css">
-        <link rel="stylesheet" href="assets/css/app.css">
-        <link rel="stylesheet" href="assets/css/quick-size.css">
-    
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
-    
-    </head>
-<body>
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
+    <title>QuickSize™</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+
+    <!--Core CSS -->
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bulma.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/quick-size.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+
+</head>
+
+<body>
     <div class="content">
         <div class="heading-content">
-            <h1>Your QuickSize™ Profile is now complete!</h1>
+            <h1>Your QuickSize™ Result</h1>
         </div>
 
         <div class="sizeme-results">
-            <p class="text">Welcome to the tailored revolution! Please review your measurements below and alter them if you wish. Remember, your first purchase is covered by our Perfect Fit guarantee.</p>
+            <p class="text">Welcome to the tailored revolution! Please review your measurements below.</p>
             <div class="cards">
-                <div class="result-card">
-                    <h5>Your Height</h5>
-                    <p class="height-value">170</p>
+                <div class="column is-2">
+                    <p class="size-title">Gender</p>
+                    <p class="gender-value size-output"></p>
                 </div>
-                <div class="result-card">
-                    <h5>Your Bust</h5>
-                    <p class="bust-value">90</p>
+                <div class="column is-2">
+                    <p class="size-title">Your Height</p>
+                    <p class="height-value size-output"></p>
                 </div>
-                <div class="result-card">
-                    <h5>Your Waist</h5>
-                    <p class="waist-value">85</p>
+                <div class="column is-2">
+                    <p class="size-title">Your Bust</p>
+                    <p class="bust-value size-output"></p>
                 </div>
-                <div class="result-card">
-                    <h5>Your Hips</h5>
-                    <p class="hips-value">90</p>
+                <div class="column is-2">
+                    <p class="size-title">Your Waist</p>
+                    <p class="waist-value size-output"></p>
                 </div>
-                <div class="result-card">
-                    <h5>Your Inseam</h5>
-                    <p class="inseam-value">-</p>
+                <div class="column is-2">
+                    <p class="size-title">Your Hips</p>
+                    <p class="hips-value size-output"></p>
+                </div>
+                <div class="column is-2">
+                    <p class="size-title">Your Inseam</p>
+                    <p class="inseam-value size-output"></p>
                 </div>
             </div>
             <div class="finaly-size">
-                <h5>Your Size</h5>
-                <p class="size-value">XL</p>
-        </div>
+                <p class="size-title">Your Size</p>
+                <p class="size-value size-output">XL</p>
+            </div>
 
-        <div class="btns">
-            <a href="/size.html" class="button is-rounded big-button grey-button rounded">Alter measurements</a>
-            <a href="shop.html" class="button big-button primary-button upper-button rounded raised">I’m done. Lets shop!</a>
+            <div class="btns">
+                <a href="shop.html" class="discrete Button button big-button upper-button rounded raised">I’m done. Go to shop!</a>
+                <a href="" class="primaryButton button big-button primary-button upper-button rounded raised">Show Me Avaliable Items</a>
+            </div>
         </div>
     </div>
-    <script src="assets/js/size.js"></script>
+    <script src="assets/js/size-result.js"></script>
 
 </body>
 

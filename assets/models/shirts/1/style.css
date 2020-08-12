@@ -27,44 +27,6 @@ html {
     box-sizing: border-box;
 }
 
-.frame {
-    top: 0;
-    position: absolute;
-    left: 0;
-    padding: 1rem;
-}
-
-.frame__title {
-    font-size: 1rem;
-    display: inline-block;
-}
-
-.frame__links {
-    display: inline-block;
-    margin: 0 2rem;
-    text-transform: lowercase;
-}
-
-.frame__links a {
-    display: inline-block;
-    margin: 0 0.25rem;
-    text-decoration: none;
-    color: red;
-}
-
-.frame__links a:focus,
-.frame__links a:hover {
-    text-decoration: underline;
-}
-
-#c {
-    width: 100%;
-    height: 100%;
-    display: block;
-    top: 0;
-    left: 0;
-}
-
 .controls {
     position: absolute;
     bottom: 0;
@@ -251,18 +213,6 @@ html {
         margin: 0;
         font-size: 0.7em;
     }
-
-    .frame {
-        left: auto;
-        right: 0;
-        padding-left: 6rem;
-    }
-
-    .frame__links {
-        display: block;
-        margin: 0;
-        text-align: right;
-    }
 }
 
 @media (max-width: 720px) {
@@ -302,10 +252,15 @@ html {
     .option.--is-active {
         width: 47px;
     }
-
-    .option img {
-        height: 100%;
-        width: auto;
-        pointer-events: none;
+    .controls{
+        left: 84%;
+    }
+    .moving-button{
+        display: none !important;
+    }
+    .continue-button{
+        left: -110px;
+        bottom: 45px;
+        padding: 5px;
     }
 }

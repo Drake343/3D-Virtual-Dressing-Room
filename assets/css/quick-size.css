@@ -43,7 +43,7 @@
 
 /* human img */
 .parent .human-img {
-    background-image: url('../img/ui/unisex.png');
+    background-image: url('../img/ui/male.png');
     width: 50%;
     height: 520px;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@
 }
 
 .parent .human-img p.height {
-    left: 125px;
+    left: 175px;
     top: 10px;
 }
 
@@ -163,19 +163,9 @@
     margin: 0 auto;
 }
 
-.content .sizeme-results .result-card>h5 {
-    font-size: 25px;
-}
-
 .content .sizeme-results .result-card>p {
     line-height: 0;
     font-size: 35px;
-}
-
-.content .sizeme-results .finaly-size>h5 {
-    font-size: 55px;
-    margin: 0;
-    line-height: 1;
 }
 
 .content .sizeme-results .finaly-size>p {
@@ -205,6 +195,11 @@
     color: white;
 }
 
-.btns .primaryButton:hover {
-    opacity: .8;
+.size-title {
+    font-weight: 500;
+}
+
+.size-title,
+.size-output {
+    font-size: 32px;
 }

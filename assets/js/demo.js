@@ -61,7 +61,7 @@ $(document).ready(function () {
 
 
   var typed = new Typed('.typed-hero', {
-    strings: ["Hey everybody!", "in Real Time 3D Custom Made Fashion Shop"],
+    strings: ["Hey everybody!", "in 3D Virtual Dressing Room"],
     typeSpeed: 45,
     loop: true,
     loopCount: Infinity,

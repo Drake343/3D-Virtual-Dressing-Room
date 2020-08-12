@@ -101,8 +101,8 @@
             </span>
         </a>
     </div>
-      <!-- Categories Right quickview -->
-      <div class="category-quickview">
+       <!-- Categories Right quickview -->
+       <div class="category-quickview">
         <div class="inner">
             <ul class="category-menu">
                 <li>
@@ -320,6 +320,184 @@
     </div>
     </div>
     </div>
+    <!-- Filters quickview -->
+    <div class="filters-quickview">
+        <div class="inner">
+            <!-- Header -->
+            <div class="quickview-header">
+                <h2>Filters</h2>
+                <span id="close-filters-sidebar"><i data-feather="x"></i></span>
+            </div>
+
+            <!-- Filters body -->
+            <div class="filters-body">
+                <!-- Categories checkboxes -->
+                <div class="filter-block">
+                    <h3 class="filter-title has-padding">Categories</h3>
+                    <div class="columns is-checkboxes is-gapless is-multiline">
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="house" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        House
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="office" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Office
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="kids" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Kids
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="kitchen" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Kitchen
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="accessories" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Misc
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Categories -->
+
+                <!-- Types -->
+                <div class="filter-block">
+                    <h3 class="filter-title has-padding">Types</h3>
+                    <div class="columns is-checkboxes is-gapless is-multiline">
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="chairs" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Chairs
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="couches" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Couches
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="tables" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Tables
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="beds" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Beds
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="lights" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Lights
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Checkbox -->
+                        <div class="column is-6">
+                            <div class="field">
+                                <div class="control">
+                                    <label class="checkbox-wrap is-small">
+                                        <input id="devices" type="checkbox" class="d-checkbox" checked>
+                                        <span></span>
+                                        Devices
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Types -->
+
+                <!-- Price range filter -->
+                <div class="filter-block">
+                    <h3 class="filter-title">Price</h3>
+                    <div class="price-range-wrapper">
+                        <div class="price-limit">0</div>
+                        <div class="range-slider">
+                            <input class="input-range" type="range" value="1500" min="1" max="1500">
+                            <div class="slider-output">
+                                <small>Show between</small><span class="range-value"></span>
+                            </div>
+                        </div>
+                        <div class="price-limit">1500</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- Main wrapper -->
     <div class="shop-wrapper">
 
@@ -338,25 +516,19 @@
             </div>
         </div>
         <!-- Main section -->
-        <div id="orders-list" class="section">
+        <div id="shop-grid" class="section">
             <!-- Container -->
             <div class="container">
 
-                <!-- Orders List -->
-                <div class="columns account-header">
+                <!-- X Large products -->
+                <div class="columns category-header">
                     <div class="column main-column is-tablet-landscape-padded">
-                        <div class="account-title">
-                            <h2>MY ORDERS</h2>
-                        </div>
-
-                        <!-- Account tabs -->
-                        <div class="tabs account-tabs has-controls">
-                            <ul>
-                                <li><a href="account.html">Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                                <li class="is-active"><a href="orders.html">Orders</a></li>
-                            </ul>
+                        <!-- Title -->
+                        <div class="category-title is-product-category">
+                            <h2>X Large Size</h2>
+                            <div class="category-icon is-hidden-mobile">
+                            <img src="assets/img/icons/categories/size.svg">
+                            </div>
                         </div>
 
                         <!-- Controls -->
@@ -367,60 +539,148 @@
                             <div class="sort-box">
                                 <div class="sort-box-select">
                                     <select data-placeholder="Default order" class="chosen-select-no-single">
-                                        <option>All Orders</option>
-                                        <option>Pending</option>
-                                        <option>In Progress</option>
-                                        <option>Complete</option>
+                                        <option>Default Sort</option>
+                                        <option>Best Sellers</option>
+                                        <option>Highest Rated</option>
+                                        <option>Best Deals</option>
+                                        <option>Newest Products</option>
                                     </select>
                                 </div>
                             </div>
                         </div>
                         <!-- /Controls -->
 
-                        <div id="orders-main-placeholder" class="main-placeholder is-hidden">
-                            <div class="placeholder-content">
-                                <img src="assets/img/illustrations/shop.svg" alt="">
-                                <h3>Welcome, Guest</h3>
-                                <p>Guest users don't have accounts. Please login or register to view your account.</p>
-                                <div class="button-wrap">
-                                    <a href="/authentication.html" class="button big-button primary-button rounded raised">Log In</a>
+                        <!-- Product grid -->
+                        <div class="columns is-product-grid is-multiline">
+                          <!-- Product -->
+                          <div class="column is-4">
+                            <div class="flat-card product-container" data-product-id="3" data-product-category="House">
+                                <div class="image">
+                                    <img src="assets/img/products/shirts/3.png" data-demo-src="assets/img/products/modern-table.png" alt="">
                                 </div>
-                                <a>Don't have an account?</a>
-                            </div>
-                        </div>
+                                <div class="product-info has-text-centered">
+                                    <a class="product-details-link" href="product.html">
+                                        <h3 class="product-name featured">Cotton V-Neck T-Shirt for Men - Maroon</h3>
+                                    </a>
+                                    <p class="product-description"></p>
+                                    <p class="product-price">
+                                        <span>350.49</span>
+                                    </p>
+                                </div>
 
-                        <div id="orders-empty-placeholder" class="main-placeholder is-hidden">
-                            <div class="placeholder-content">
-                                <img src="assets/img/illustrations/shop.svg" alt="">
-                                <h3>No Orders</h3>
-                                <p>You have no orders to show. Your order details will be stored here, once you checkout.</p>
-                                <div class="button-wrap">
-                                    <a href="/shop.html" class="button big-button primary-button rounded raised">Continue Shopping</a>
+                                <div class="actions">
+                                    <div class="add">
+                                        <i data-feather="shopping-cart" class="has-simple-popover" data-content="Add to Cart" data-placement="top"></i>
+                                    </div>
+                                    <div class="like modal-trigger" data-modal="add-to-wishlist-modal">
+                                        <i data-feather="heart" class="has-simple-popover" data-content="Add to Wishlist" data-placement="top"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- Product -->
+                        <div class="column is-4">
+                            <div class="flat-card product-container" data-product-id="19" data-product-category="House">
+                                <div class="image">
+                                    <img src="assets/img/products/jackets//4.png" data-demo-src="assets/img/products/blue-seat.png" alt="">
+                                </div>
+                                <div class="product-info has-text-centered">
+                                    <a class="product-details-link" href="product.html">
+                                        <h3 class="product-name">Andora Quilted Side Pockets Drawstring Hooded Vest for Men - Black</h3>
+                                    </a>
+                                    <p class="product-description"></p>
+                                    <p class="product-price">
+                                        <span>35.00</span>
+                                    </p>
+                                </div>
 
-                        <!-- Orders  -->
-                        <div id="orders-main" class="columns is-account-grid is-multiline">
-                            <!--Loader-->
-                            <div class="account-loader is-active">
-                                <div class="loader is-pulled is-loading"></div>
-                            </div>
-                            <!--Orders-->
-                            <div class="column is-12">
+                                <div class="actions">
+                                    <div class="add">
+                                        <i data-feather="shopping-cart" class="has-simple-popover" data-content="Add to Cart" data-placement="top"></i>
+                                    </div>
+                                    <div class="like modal-trigger" data-modal="add-to-wishlist-modal">
+                                        <i data-feather="heart" class="has-simple-popover" data-content="Add to Wishlist" data-placement="top"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <!-- /Product grid -->
                     </div>
                 </div>
-                <!-- /Orders List -->
             </div>
             <!-- /Container -->
         </div>
         <!-- /Main section -->
     </div>
     <!-- /Main wrapper -->
-    <!-- Concatenated plugins -->
+
+    <!-- Add to Wishlist Modal -->
+    <div id="add-to-wishlist-modal" class="modal add-to-wishlist-modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <div class="box">
+                <div class="box-header">
+                    
+                    <span>ADD TO WISHLIST</span>
+                    <div class="modal-delete"><i data-feather="x"></i></div>
+                </div>
+                <div class="box-body">
+                    <div class="inner-content">
+                        <div id="existing-product-message" class="message is-link has-close-icon is-hidden">
+                            <div class="message-body">
+                                <a class="close-icon">
+                                    <i data-feather="x"></i>
+                                </a>
+                                This product already exists in the selected wishlist. Please try another one.
+                            </div>
+                        </div>
+                        <div id="wishlist-modal-list-placeholder" class="modal-placeholder is-hidden">
+                            <div class="placeholder-content">
+                                <img src="assets/img/illustrations/bed.svg" alt="">
+                                <h3>No Wishlists</h3>
+                                <p>You currently don't have any wishlist saved. Start by creating one.</p>
+                                <div class="button-wrap">
+                                    <a href="wishlist.html" class="button big-button primary-button rounded raised modal-delete">Add
+                                        Wishlist</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="wishlist-modal-list" class="wishlist-modal-list">
+                            <p>Add a new sub list to classify your wishlist items. You can then manage them and find them
+                                more
+                                easily.</p>
+                            <ul>
+                                <li class="list-item is-active">
+                                    <div class="meta">
+                                        <span class="name">Title</span>
+                                        <span class="count"><var>0</var> Items</span>
+                                    </div>
+                                    <div class="selected-indicator">
+                                        <i data-feather="check"></i>
+                                    </div>
+                                </li>
+                                <li class="list-item">
+                                    <div class="meta">
+                                        <span class="name">Title</span>
+                                        <span class="count"><var>0</var> Items</span>
+                                    </div>
+                                    <div class="selected-indicator">
+                                        <i data-feather="check"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="button-wrap">
+                                <button type="submit" class="button add-to-wishlist-action is-fullwidth feather-button is-bold primary-button raised">
+                                    Add To Wishlist
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Concatenated plugins -->
     <script src="assets/js/app.js"></script>
 
     <!--Data-->

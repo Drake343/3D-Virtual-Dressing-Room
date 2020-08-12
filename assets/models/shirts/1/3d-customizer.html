@@ -23,55 +23,6 @@
     <link rel="stylesheet" href="../../../css/app.css">
     <link rel="stylesheet" href="../../../css/bulma.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <!-- We add the loader CSS here so that assets don't pop in before the bundled CSS is loaded -->
-    <!-- <style>
-    .loading {
-        position: fixed;
-        z-index: 50;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: #f1f1f1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .loader {
-        -webkit-perspective: 120px;
-        -moz-perspective: 120px;
-        -ms-perspective: 120px;
-        perspective: 120px;
-        width: 100px;
-        height: 100px;
-    }
-
-    .loader::before {
-        content: "";
-        position: absolute;
-        left: 25px;
-        top: 25px;
-        width: 50px;
-        height: 50px;
-        background-color: #ff0000;
-        animation: flip 1s infinite;
-    }
-
-    @keyframes flip {
-        0% {
-            transform: rotate(0);
-        }
-
-        50% {
-            transform: rotateY(180deg);
-        }
-
-        100% {
-            transform: rotateY(180deg) rotateX(180deg);
-        }
-    }
-    </style> -->
 </head>
 
 <body>
@@ -86,13 +37,6 @@
         <div class="option --is-active abbas" data-option="up">
             <i class="fas fa-arrow-up"></i>
         </div>
-        <!-- <div class="option" data-option="cushions">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/cushions.svg" alt="" />
-        </div> -->
-        <!-- <div class="option" data-option="base">
-            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1376484/base.svg" alt="" />
-        </div> -->
-
         <div class="option abbas" data-option="down">
             <i class="fas fa-arrow-down"></i>
         </div>
@@ -101,9 +45,6 @@
     <!-- The canvas element is used to draw the 3D scene -->
     <canvas id="model-canvas"></canvas>
     <div class="controls">
-        <!-- <div class="option">
-            <i onclick="moveUp()" class="fas fa-arrow-up"></i>
-        </div> -->
         <div class="option moving-button">
             <i onclick="moveLeft()" class="fas fa-arrow-left"></i>
 
@@ -111,9 +52,6 @@
         <div class="option moving-button right-btn">
             <i onclick="moveRight()" class="fas fa-arrow-right"></i>
         </div>
-        <!-- <div class="option">
-            <i onclick="moveDown()" class="fas fa-arrow-down"></i>
-        </div> -->
         <div class="info">
             <div class="info__message">
                 <p><strong>&nbsp;Grab&nbsp;</strong> to rotate. <strong>&nbsp;Scroll&nbsp;</strong> to zoom.

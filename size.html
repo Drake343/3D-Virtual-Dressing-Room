@@ -42,89 +42,110 @@
 
     <section>
         <div class="parent">
+
             <!-- Form get size -->
             <form name="sizeForm" class="size-calculator" action="quick-size-result.html">
-                <!-- Type -->
-                <div class="details type">
+    
+                <!-- Gender -->
+                <div class="gender">
+    
                     <div class="title">
-                        <p>Type:</p>
+                        <h4>Gender:</h4>
                     </div>
+    
                     <label class="radio_btn">
-                        <input type="radio" name="type" id="male" value="T-shirts" required />
-                        <span>T-shirts</span>
+                        <input type="radio" onclick="manAvatar()" name="gender" id="male" value="male" required />
+                        <span>Male</span>
                     </label>
+    
                     <label class="radio_btn">
-                        <input type="radio" name="type" id="Female" value="Pants" required />
+                        <input type="radio" onclick="femaleAvatar()" name="gender" id="female" value="female" required />
+                        <span>Female</span>
+                    </label>
+    
+                </div>
+    
+                <!-- Type -->
+                <div class="type">
+    
+                    <div class="title">
+                        <h4>Type:</h4>
+                    </div>
+    
+                    <label class="radio_btn">
+                        <input type="radio" name="type" value="T-shirts" required />
+                        <span>T-shirts/Dresses</span>
+                    </label>
+    
+                    <label class="radio_btn">
+                        <input type="radio" name="type" value="Pants" required />
                         <span>Pants</span>
                     </label>
+    
                 </div>
-
+    
                 <div class="details">
-                    <div class="title">
-                        <p>Height</p>
-                    </div>
-                    <input type="number" name="Height" id="btn-height" min="150" max="210" required />
-                    <span>cm <i class="show-toolTip height fa fa-question-circle"></i></span>
+                        <div class="title">
+                            <h4>Height</h4>
+                        </div>
+                        <input type="number"  name="Height" id="btn-height" min="150" max="210" required />
+                        <span>cm <i class="show-toolTip height fa fa-question-circle"></i></span>
                 </div>
-
+    
+    
+    
                 <div class="details">
-                    <div class="title">
-                        <p>Bust</p>
-                    </div>
-                    <input class="btn" type="number" name="Bust" id="btn-bust" min="87" max="114" required />
-                    <span>cm <i class="show-toolTip bust fa fa-question-circle"></i></span>
+                        <div class="title">
+                            <h4>Bust</h4>
+                        </div>
+                        <input class="btn" type="number" name="Bust" id="btn-bust" min="87" max="114" required />
+                        <span>cm <i class="show-toolTip bust fa fa-question-circle"></i></span>
                 </div>
-
+    
                 <div class="details">
-                    <div class="title">
-                        <p>Waist</p>
-                    </div>
-                    <input type="number" name="Waist" id="btn-waist" min="75" max="103" required />
-                    <span>cm <i class="show-toolTip waist fa fa-question-circle"></i></span>
+                        <div class="title">
+                            <h4>Waist</h4>
+                        </div>
+                        <input type="number" name="Waist" id="btn-waist" min="75" max="103" required />
+                        <span>cm <i class="show-toolTip waist fa fa-question-circle"></i></span>
                 </div>
-
+    
                 <div class="details">
-                    <div class="title">
-                        <p>Hips</p>
-                    </div>
-                    <input type="number" name="Hips" id="btn-hips" min="86" max="113" required />
-                    <span>cm <i class="show-toolTip hips fa fa-question-circle"></i></span>
+                        <div class="title">
+                            <h4>Hips</h4>
+                        </div>
+                        <input type="number" name="Hips" id="btn-hips" min="86" max="113" required />
+                        <span>cm <i class="show-toolTip hips fa fa-question-circle"></i></span>
                 </div>
-
+    
                 <div class="details">
-                    <div class="title">
-                        <p>Inseam</p>
-                    </div>
-                    <input type="number" name="Inseam" id="btn-inseam" min="81" max="83" required />
-                    <span>cm <i class="show-toolTip inseam fa fa-question-circle"></i></span>
+                        <div class="title">
+                            <h4>Inseam</h4>
+                        </div>
+                        <input type="number" name="Inseam" id="btn-inseam" min="81" max="83" required />
+                        <span>cm <i class="show-toolTip inseam fa fa-question-circle"></i></span>
                 </div>
-
+    
                 <div class="details">
-                    <button class="submit button big-button primary-button upper-button rounded raised">Find My Size</button>
+                    <button class="submit button big-button primary-button upper-button rounded raised">Find My Size &raquo;</button>
                 </div>
             </form>
-
+    
             <!-- human img -->
-            <div class="human-img">
-                <p class="height">Height</p>
-                <p class="bust">Bust</p>
-                <p class="waist">Waist</p>
-                <p class="hips">Hips</p>
-                <p class="inseam">Inseam</p>
-            </div>
-
+            <div class="human-img"></div>
+    
             <!-- Pop UP -->
             <div id="myModal" class="modal">
-
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <p></p>
-                    <p></p>
-                </div>
-
+    
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h4></h4>
+                <p></p>
             </div>
-
+            
+            </div>
+    
         </div>
     </section>
     <footer class="footer">

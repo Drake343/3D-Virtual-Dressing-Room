@@ -19,11 +19,11 @@
  **********************************************************************************
  *   Waist                    Hips                   Inseam                 size  *
  **********************************************************************************
- *   75 - 82      *          86 - 93      *          81           *        S    *
+ *   75 - 82      *          86 - 93      *          81             *        S    *
  *                *                       *                         *             *
  *   83 - 90      *          94 - 100     *          82             *        M    *
  *                *                       *                         *             *
- *   91 - 97      *          101 - 108    *          83           *        L    *
+ *   91 - 97      *          101 - 108    *          83             *        L    *
  *                *                       *                         *             *
  *   98 - 103     *          109 - 113    *          84             *        XL   *
  **********************************************************************************
@@ -33,9 +33,10 @@
 // Variable
 
 let radios = document.querySelectorAll('input[type=radio][name="type"]')
+let radioGender = document.querySelectorAll('input[type=radio][name="gender"]')
 let textInput = document.querySelectorAll('input[type=text]')
 
-let height =document.querySelector('#btn-height')
+let height = document.querySelector('#btn-height')
 let bust = document.querySelector('#btn-bust')
 let waist = document.querySelector('#btn-waist')
 let Hips = document.querySelector('#btn-hips')
@@ -54,8 +55,10 @@ let popupContent = document.querySelector('.modal-content p')
 let popupTitle = document.querySelector('.modal-content h4')
 
 let helpBtn = document.querySelectorAll('.show-toolTip')
-
+let unisexPhoto = document.querySelector('.parent .human-img');
 let yourSize
+let gender
+
 
 // Hidden and Show input (bust) and (inseam)
 for (let i = 0; i < radios.length; i++) {
@@ -72,7 +75,6 @@ for (let i = 0; i < radios.length; i++) {
 
 // Calculate Size
 function calculateSize() {
-
     // The upper part
     if (
         bust.value >= 87 && bust.value <= 94 &&
@@ -126,8 +128,28 @@ function calculateSize() {
         yourSize = 'X-large'
         console.log(yourSize)
     }
+
+    else {
+        yourSize = 'Please try again'
+    }
 }
 
+for (let i = 0; i < radioGender.length; i++) {
+    radioGender[i].addEventListener('click', function () {
+        if (this.value === 'male') {
+            gender = "Male";
+            
+        } else if (this.value === 'female') {
+            gender = "Female"
+        }
+    })
+}
+function manAvatar() {
+    unisexPhoto.style.backgroundImage = "url('assets/img/ui/male.png')";
+  }
+  function femaleAvatar() {
+    unisexPhoto.style.backgroundImage = "url('assets/img/ui/female.png')";
+  }
 function passingValue() {
     localStorage.setItem('heightValue', height.value)
     localStorage.setItem('bustValue', bust.value)
@@ -135,6 +157,7 @@ function passingValue() {
     localStorage.setItem('HipsValue', Hips.value)
     localStorage.setItem('inseamValue', inseam.value)
     localStorage.setItem('resaultValue', yourSize)
+    localStorage.setItem('gender', gender)
 }
 
 submit.addEventListener('click', () => {
