@@ -82,6 +82,11 @@ const colors = [{
     shininess: 0
   },
   {
+    texture: '../../../texture/dresses/1.jepg',
+    size: [6, 6, 6],
+    shininess: 0
+  },
+  {
     texture: '../../../texture/dresses/2.jpeg',
     size: [6, 6, 6],
     shininess: 0
@@ -429,7 +434,7 @@ scene.add(dirLight);
 // Floor
 var floorGeometry = new THREE.PlaneGeometry(5000, 5000, 1, 1);
 var floorMaterial = new THREE.MeshPhongMaterial({
-  color: 0xf1f1f2,
+  color: 0xeeeeee,
   shininess: 0
 });
 
